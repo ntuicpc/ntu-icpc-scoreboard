@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>NTU ICPC Scoreboards</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        main {
+            width: min(720px, 100%);
+            margin: auto;
+        }
+
+        h1 {
+            margin-top: 0;
+            text-align: center;
+        }
+
+        section {
+            margin-top: 28px;
+        }
+
+        .card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            margin-bottom: 12px;
+            padding: 18px 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: white;
+        }
+
+        .title {
+            font-weight: bold;
+        }
+
+        .archive-name {
+            margin-top: 4px;
+            color: #777;
+            font-size: 13px;
+        }
+
+        .contest-type {
+            display: inline-block;
+            margin-left: 6px;
+            padding: 2px 8px;
+            border: 1px solid #ccc;
+            border-radius: 999px;
+            color: #555;
+            font-size: 12px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        .links {
+            display: flex;
+            flex-shrink: 0;
+            gap: 8px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 9px 13px;
+            border-radius: 5px;
+            background: #333;
+            color: white;
+            text-decoration: none;
+        }
+
+        .button:hover,
+        .button:focus,
+        .button:visited {
+            color: white;
+            text-decoration: none;
+        }
+
+        .button.upsolve {
+            background: #3977a8;
+        }
+
+        .empty {
+            color: #777;
+        }
+
+        @media (max-width: 560px) {
+            .card {
+                align-items: flex-start;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<main>
+    <h1>NTU ICPC Scoreboards</h1>
+
+    <section>
+        <h2>Live</h2>
+        <div class="card">
+            <div class="title">Current Scoreboard</div>
+            <div class="links">
+                <a class="button" href="/live">Open Live</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Years</h2>
+
+        {% for year in years %}
+            <div class="card">
+                <div class="title">{{ year }}</div>
+                <div class="links">
+                    <a class="button" href="/year/{{ year }}">Overview</a>
+                </div>
+            </div>
+        {% else %}
+            <p class="empty">No yearly scoreboards yet.</p>
+        {% endfor %}
+    </section>
+
+    <section>
+        <h2>Archive</h2>
+
+        {% for archive in archives %}
+            <div class="card">
+                <div>
+                    <div class="title">{{ archive.title }}</div>
+                    <div class="archive-name">
+                        {{ archive.name }}
+                        <span class="contest-type">{{ archive.contest_type }}</span>
+                    </div>
+                </div>
+
+                <div class="links">
+                    <a class="button" href="/archive/{{ archive.name }}">Scoreboard</a>
+                    {% if archive.has_upsolve %}
+                        <a class="button upsolve" href="/upsolve/{{ archive.name }}">Upsolve</a>
+                    {% endif %}
+                </div>
+            </div>
+        {% else %}
+            <p class="empty">No archived scoreboards yet.</p>
+        {% endfor %}
+    </section>
+</main>
+
+</body>
+</html>

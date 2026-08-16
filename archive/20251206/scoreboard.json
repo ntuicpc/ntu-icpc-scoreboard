@@ -1,0 +1,771 @@
+{
+    "problems": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+    ],
+    "teams": [
+        {
+            "rank": 1,
+            "name": "fruit_advantages",
+            "problems": {
+                "A": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "B": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "2:36"
+                },
+                "C": {
+                    "status": "accepted",
+                    "wrong_attempts": 2,
+                    "time": "1:29"
+                },
+                "D": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "3:37"
+                },
+                "E": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "2:51"
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "2:06"
+                },
+                "G": {
+                    "status": "first-solve",
+                    "wrong_attempts": 1,
+                    "time": "0:28"
+                },
+                "H": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "0:10"
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "1:04"
+                },
+                "J": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "K": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "1:46"
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "1:08"
+                }
+            },
+            "solved": 10,
+            "penalty": 1115
+        },
+        {
+            "rank": 2,
+            "name": "nobook",
+            "problems": {
+                "A": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "B": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "3:26"
+                },
+                "C": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "2:19"
+                },
+                "D": {
+                    "status": "attempted",
+                    "wrong_attempts": 1,
+                    "time": "4:59"
+                },
+                "E": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "4:29"
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 2,
+                    "time": "1:16"
+                },
+                "G": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "1:23"
+                },
+                "H": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "0:12"
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "1:49"
+                },
+                "J": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "K": {
+                    "status": "accepted",
+                    "wrong_attempts": 6,
+                    "time": "4:04"
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "0:41"
+                }
+            },
+            "solved": 9,
+            "penalty": 1359
+        },
+        {
+            "rank": 3,
+            "name": "revoNTUlet",
+            "problems": {
+                "A": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "B": {
+                    "status": "attempted",
+                    "wrong_attempts": 3,
+                    "time": "4:07"
+                },
+                "C": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "1:38"
+                },
+                "D": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "E": {
+                    "status": "accepted",
+                    "wrong_attempts": 2,
+                    "time": "3:37"
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 2,
+                    "time": "0:54"
+                },
+                "G": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "1:28"
+                },
+                "H": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "0:09"
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "0:57"
+                },
+                "J": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "K": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "2:14"
+                },
+                "L": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "0:24"
+                }
+            },
+            "solved": 8,
+            "penalty": 781
+        },
+        {
+            "rank": 4,
+            "name": "PCkomachi",
+            "problems": {
+                "A": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "B": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "C": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "1:39"
+                },
+                "D": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "E": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "1:29"
+                },
+                "G": {
+                    "status": "accepted",
+                    "wrong_attempts": 2,
+                    "time": "2:06"
+                },
+                "H": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "0:07"
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "1:07"
+                },
+                "J": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "K": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "3:01"
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "0:34"
+                }
+            },
+            "solved": 7,
+            "penalty": 663
+        },
+        {
+            "rank": 5,
+            "name": "Tideology",
+            "problems": {
+                "A": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "B": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "C": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "1:57"
+                },
+                "D": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "E": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "4:20"
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "1:39"
+                },
+                "G": {
+                    "status": "attempted",
+                    "wrong_attempts": 22,
+                    "time": "4:59"
+                },
+                "H": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "0:15"
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "0:48"
+                },
+                "J": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "K": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "2:52"
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "0:28"
+                }
+            },
+            "solved": 7,
+            "penalty": 759
+        },
+        {
+            "rank": 6,
+            "name": "SomniorumVenator",
+            "problems": {
+                "A": {
+                    "status": "attempted",
+                    "wrong_attempts": 2,
+                    "time": "1:27"
+                },
+                "B": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "C": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "0:55"
+                },
+                "D": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "E": {
+                    "status": "accepted",
+                    "wrong_attempts": 2,
+                    "time": "3:03"
+                },
+                "F": {
+                    "status": "first-solve",
+                    "wrong_attempts": 1,
+                    "time": "0:48"
+                },
+                "G": {
+                    "status": "attempted",
+                    "wrong_attempts": 9,
+                    "time": "4:57"
+                },
+                "H": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "0:10"
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "1:40"
+                },
+                "J": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "K": {
+                    "status": "attempted",
+                    "wrong_attempts": 4,
+                    "time": "4:53"
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "1:29"
+                }
+            },
+            "solved": 6,
+            "penalty": 565
+        },
+        {
+            "rank": 7,
+            "name": "QwQ_GG",
+            "problems": {
+                "A": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "B": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "C": {
+                    "status": "accepted",
+                    "wrong_attempts": 3,
+                    "time": "3:46"
+                },
+                "D": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "E": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "2:26"
+                },
+                "G": {
+                    "status": "accepted",
+                    "wrong_attempts": 3,
+                    "time": "3:43"
+                },
+                "H": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "0:19"
+                },
+                "I": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "0:46"
+                },
+                "J": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "K": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "1:33"
+                }
+            },
+            "solved": 6,
+            "penalty": 913
+        },
+        {
+            "rank": 8,
+            "name": "MixedBlood",
+            "problems": {
+                "A": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "B": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "C": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "2:43"
+                },
+                "D": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "E": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "2:34"
+                },
+                "G": {
+                    "status": "accepted",
+                    "wrong_attempts": 8,
+                    "time": "4:48"
+                },
+                "H": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "0:05"
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "1:33"
+                },
+                "J": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "K": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "0:59"
+                }
+            },
+            "solved": 6,
+            "penalty": 942
+        },
+        {
+            "rank": 9,
+            "name": "NTNU_2beatdown",
+            "problems": {
+                "A": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "B": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "C": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "3:17"
+                },
+                "D": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "E": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 7,
+                    "time": "2:39"
+                },
+                "G": {
+                    "status": "accepted",
+                    "wrong_attempts": 3,
+                    "time": "3:54"
+                },
+                "H": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "0:17"
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "1:16"
+                },
+                "J": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "K": {
+                    "status": "attempted",
+                    "wrong_attempts": 6,
+                    "time": "4:58"
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "1:02"
+                }
+            },
+            "solved": 6,
+            "penalty": 945
+        },
+        {
+            "rank": 10,
+            "name": "bcc_ouo",
+            "problems": {
+                "A": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "B": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "C": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "2:31"
+                },
+                "D": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "E": {
+                    "status": "attempted",
+                    "wrong_attempts": 4,
+                    "time": "4:58"
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "3:29"
+                },
+                "G": {
+                    "status": "accepted",
+                    "wrong_attempts": 8,
+                    "time": "2:12"
+                },
+                "H": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "0:16"
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 3,
+                    "time": "3:10"
+                },
+                "J": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "K": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "0:38"
+                }
+            },
+            "solved": 6,
+            "penalty": 956
+        },
+        {
+            "rank": 11,
+            "name": "empty",
+            "problems": {
+                "A": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "B": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "C": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "3:29"
+                },
+                "D": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "E": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 2,
+                    "time": "4:20"
+                },
+                "G": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "H": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "0:19"
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "2:04"
+                },
+                "J": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "K": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "0:41"
+                }
+            },
+            "solved": 5,
+            "penalty": 693
+        }
+    ],
+    "update-time": "2026/08/14 00:47:00",
+    "contest-id": 1771,
+    "contest-url": "https://qoj.ac/contest/1771",
+    "contest-type": "qoj",
+    "title": "Petrozavodsk Summer 2023 Day 3"
+}

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ year }} NTU ICPC Team Results</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 32px 20px;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        main {
+            width: min(1200px, 100%);
+            margin: auto;
+        }
+
+        h1 {
+            margin: 0;
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 32px;
+        }
+
+        .view-switch {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin: 18px 0;
+        }
+
+        .view-button {
+            padding: 9px 14px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .view-button.active,
+        .view-button:hover,
+        .view-button:focus {
+            background: #333;
+            color: white;
+            text-decoration: none;
+        }
+
+        .subtitle {
+            margin: 8px 0 24px;
+            text-align: center;
+            color: #777;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: white;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            white-space: nowrap;
+        }
+
+        th,
+        td {
+            padding: 11px 13px;
+            border-right: 1px solid #e5e5e5;
+            border-bottom: 1px solid #e5e5e5;
+            text-align: center;
+        }
+
+        th:last-child,
+        td:last-child {
+            border-right: 0;
+        }
+
+        tbody tr:last-child td {
+            border-bottom: 0;
+        }
+
+        th {
+            background: #333;
+            color: white;
+        }
+
+        .team {
+            position: sticky;
+            left: 0;
+            z-index: 1;
+            min-width: 180px;
+            text-align: left;
+            background: white;
+            box-shadow: inset -1px 0 #e5e5e5;
+            font-weight: bold;
+        }
+
+        th.team {
+            z-index: 2;
+            background: #333;
+        }
+
+        .contest-link {
+            display: block;
+            margin: -11px -13px;
+            padding: 11px 13px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .contest-link:hover,
+        .contest-link:focus,
+        .contest-link:visited {
+            background: #444;
+            color: white;
+            text-decoration: none;
+        }
+
+        .rank-first,
+        .rank-second,
+        .rank-third {
+            font-weight: bold;
+        }
+
+        .rank-first {
+            background: #fff1b8;
+            color: #795500;
+        }
+
+        .rank-second {
+            background: #e8ecf1;
+            color: #4d5966;
+        }
+
+        .rank-third {
+            background: #f2d6c2;
+            color: #7a4324;
+        }
+
+        .archive-list {
+            display: grid;
+            gap: 12px;
+        }
+
+        .archive {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            padding: 16px 18px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: white;
+        }
+
+        .archive-title {
+            font-weight: bold;
+        }
+
+        .archive-name {
+            margin-top: 4px;
+            color: #777;
+            font-size: 13px;
+        }
+
+        .contest-type {
+            display: inline-block;
+            margin-left: 6px;
+            padding: 2px 8px;
+            border: 1px solid #ccc;
+            border-radius: 999px;
+            color: #555;
+            font-size: 12px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        .links {
+            display: flex;
+            gap: 8px;
+        }
+
+        .button {
+            padding: 9px 13px;
+            border-radius: 5px;
+            background: #333;
+            color: white;
+            text-decoration: none;
+        }
+
+        .button.upsolve {
+            background: #3977a8;
+        }
+
+        @media (max-width: 560px) {
+            .archive {
+                align-items: flex-start;
+                flex-direction: column;
+            }
+        }
+        .home-link {
+            position: fixed;
+            top: 16px;
+            left: 16px;
+            z-index: 1000;
+            display: flex;
+            width: 40px;
+            height: 40px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            background: #333;
+            color: white;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+        }
+
+        .home-link:hover,
+        .home-link:focus,
+        .home-link:visited {
+            background: #444;
+            color: white;
+            text-decoration: none;
+        }
+
+        .home-link svg {
+            width: 22px;
+            height: 22px;
+        }
+    </style>
+</head>
+
+<body>
+<a class="home-link" href="/" aria-label="Back to home" title="Back to home">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M3 11.5 12 4l9 7.5"></path>
+        <path d="M5.5 10v10h13V10"></path>
+        <path d="M9.5 20v-6h5v6"></path>
+    </svg>
+</a>
+<main>
+    <h1>{{ year }} NTU ICPC Team Results</h1>
+
+    <div class="view-switch">
+        <a class="view-button{% if mode == 'rank' %} active{% endif %}" href="/year/{{ year }}">Rankings</a>
+        <a class="view-button{% if mode == 'rating' %} active{% endif %}" href="/year/{{ year }}?mode=rating">Rating</a>
+    </div>
+
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th class="team">Team</th>
+                    {% if mode == "rating" %}
+                        <th>Rating</th>
+                    {% else %}
+                        <th>🥇</th>
+                        <th>🥈</th>
+                        <th>🥉</th>
+                    {% endif %}
+                    <th>Contests</th>
+                    {% for archive in archives %}
+                        <th>
+                            <a class="contest-link" href="/archive/{{ archive.name }}">{{ archive.date }}</a>
+                        </th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for team in teams %}
+                    <tr>
+                        <td class="team">{{ team.name }}</td>
+                        {% if mode == "rating" %}
+                            <td>
+                                {% if team.average_rating is not none %}
+                                    <strong>{{ "%.2f"|format(team.average_rating) }}</strong>
+                                {% else %}
+                                    -
+                                {% endif %}
+                            </td>
+                            <td>{{ team.rating_contests }} / {{ archives|length }}</td>
+                        {% else %}
+                            <td>{{ team.first }}</td>
+                            <td>{{ team.second }}</td>
+                            <td>{{ team.third }}</td>
+                            <td>{{ team.contests }} / {{ archives|length }}</td>
+                        {% endif %}
+                        {% for archive in archives %}
+                            <td{% if mode == "rank" and archive.name in team.ranks %}{% if team.ranks[archive.name] == 1 %} class="rank-first"{% elif team.ranks[archive.name] == 2 %} class="rank-second"{% elif team.ranks[archive.name] == 3 %} class="rank-third"{% endif %}{% endif %}>
+                                {% if mode == "rating" and archive.name in team.ratings %}
+                                    {{ "%.2f"|format(team.ratings[archive.name]) }}
+                                {% elif mode == "rank" and archive.name in team.ranks %}
+                                    {{ team.ranks[archive.name] }}
+                                {% else %}
+                                    -
+                                {% endif %}
+                            </td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <h2>{{ year }} Archives</h2>
+    <div class="archive-list">
+        {% for archive in archives %}
+            <div class="archive">
+                <div>
+                    <div class="archive-title">{{ archive.title }}</div>
+                    <div class="archive-name">
+                        {{ archive.name }}
+                        <span class="contest-type">{{ archive.contest_type }}</span>
+                    </div>
+                </div>
+                <div class="links">
+                    <a class="button" href="/archive/{{ archive.name }}">Scoreboard</a>
+                    {% if archive.has_upsolve %}
+                        <a class="button upsolve" href="/upsolve/{{ archive.name }}">Upsolve</a>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</main>
+</body>
+</html>

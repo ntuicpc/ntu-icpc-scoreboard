@@ -1,0 +1,912 @@
+{
+    "problems": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+    ],
+    "teams": [
+        {
+            "rank": 1,
+            "name": "PCkomachi",
+            "codeforces-team-id": 131907,
+            "problems": {
+                "A": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "03:38"
+                },
+                "B": {
+                    "status": "first-solve",
+                    "wrong_attempts": 1,
+                    "time": "02:43"
+                },
+                "C": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "02:02"
+                },
+                "D": {
+                    "status": "accepted",
+                    "wrong_attempts": 2,
+                    "time": "02:35"
+                },
+                "E": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "00:12"
+                },
+                "F": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "00:21"
+                },
+                "G": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:37"
+                },
+                "H": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "04:28"
+                },
+                "I": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "00:54"
+                },
+                "J": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "02:21"
+                },
+                "K": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:28"
+                },
+                "L": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "01:07"
+                },
+                "M": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "00:06"
+                }
+            },
+            "solved": 13,
+            "penalty": 1412
+        },
+        {
+            "rank": 2,
+            "name": "std_abs",
+            "codeforces-team-id": 108680,
+            "problems": {
+                "A": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "03:50"
+                },
+                "B": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "04:04"
+                },
+                "C": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "01:39"
+                },
+                "D": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "01:11"
+                },
+                "E": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:20"
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:41"
+                },
+                "G": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "00:34"
+                },
+                "H": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "03:29"
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "01:25"
+                },
+                "J": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "03:07"
+                },
+                "K": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "00:17"
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "01:24"
+                },
+                "M": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:12"
+                }
+            },
+            "solved": 13,
+            "penalty": 1413
+        },
+        {
+            "rank": 3,
+            "name": "fruit_advantages",
+            "codeforces-team-id": 104370,
+            "problems": {
+                "A": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "03:30"
+                },
+                "B": {
+                    "status": "accepted",
+                    "wrong_attempts": 2,
+                    "time": "04:21"
+                },
+                "C": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "02:31"
+                },
+                "D": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "01:46"
+                },
+                "E": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "00:32"
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "01:23"
+                },
+                "G": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:46"
+                },
+                "H": {
+                    "status": "first-solve",
+                    "wrong_attempts": 1,
+                    "time": "03:14"
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "01:05"
+                },
+                "J": {
+                    "status": "first-solve",
+                    "wrong_attempts": 2,
+                    "time": "02:13"
+                },
+                "K": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:19"
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "01:29"
+                },
+                "M": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "00:12"
+                }
+            },
+            "solved": 13,
+            "penalty": 1561
+        },
+        {
+            "rank": 4,
+            "name": "SomniorumVenator",
+            "codeforces-team-id": 198888,
+            "problems": {
+                "A": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "04:23"
+                },
+                "B": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "03:09"
+                },
+                "C": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "01:50"
+                },
+                "D": {
+                    "status": "accepted",
+                    "wrong_attempts": 3,
+                    "time": "02:37"
+                },
+                "E": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:33"
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:59"
+                },
+                "G": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "00:23"
+                },
+                "H": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "01:30"
+                },
+                "J": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "04:54"
+                },
+                "K": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:45"
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "02:09"
+                },
+                "M": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:11"
+                }
+            },
+            "solved": 12,
+            "penalty": 1503
+        },
+        {
+            "rank": 5,
+            "name": "LionKingGrandPa",
+            "codeforces-team-id": 199562,
+            "problems": {
+                "A": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "B": {
+                    "status": "accepted",
+                    "wrong_attempts": 3,
+                    "time": "04:46"
+                },
+                "C": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "02:41"
+                },
+                "D": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "03:21"
+                },
+                "E": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:19"
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "02:28"
+                },
+                "G": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "01:32"
+                },
+                "H": {
+                    "status": "accepted",
+                    "wrong_attempts": 4,
+                    "time": "04:23"
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "01:42"
+                },
+                "J": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "K": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:33"
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "01:51"
+                },
+                "M": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:22"
+                }
+            },
+            "solved": 11,
+            "penalty": 1618
+        },
+        {
+            "rank": 6,
+            "name": "nobook",
+            "codeforces-team-id": 177341,
+            "problems": {
+                "A": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "B": {
+                    "status": "attempted",
+                    "wrong_attempts": 1,
+                    "time": null
+                },
+                "C": {
+                    "status": "accepted",
+                    "wrong_attempts": 2,
+                    "time": "03:54"
+                },
+                "D": {
+                    "status": "accepted",
+                    "wrong_attempts": 3,
+                    "time": "02:25"
+                },
+                "E": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:19"
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "01:21"
+                },
+                "G": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "01:04"
+                },
+                "H": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "01:28"
+                },
+                "J": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "04:44"
+                },
+                "K": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:36"
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "03:00"
+                },
+                "M": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "00:06"
+                }
+            },
+            "solved": 10,
+            "penalty": 1257
+        },
+        {
+            "rank": 7,
+            "name": "revoNTUlet",
+            "codeforces-team-id": 115082,
+            "problems": {
+                "A": {
+                    "status": "attempted",
+                    "wrong_attempts": 1,
+                    "time": null
+                },
+                "B": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "C": {
+                    "status": "first-solve",
+                    "wrong_attempts": 0,
+                    "time": "01:18"
+                },
+                "D": {
+                    "status": "accepted",
+                    "wrong_attempts": 2,
+                    "time": "02:38"
+                },
+                "E": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:28"
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "03:08"
+                },
+                "G": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "04:19"
+                },
+                "H": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "02:47"
+                },
+                "J": {
+                    "status": "accepted",
+                    "wrong_attempts": 2,
+                    "time": "03:58"
+                },
+                "K": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:36"
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "01:27"
+                },
+                "M": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:09"
+                }
+            },
+            "solved": 10,
+            "penalty": 1328
+        },
+        {
+            "rank": 8,
+            "name": "Tideology",
+            "codeforces-team-id": 199030,
+            "problems": {
+                "A": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "B": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "C": {
+                    "status": "attempted",
+                    "wrong_attempts": 7,
+                    "time": null
+                },
+                "D": {
+                    "status": "accepted",
+                    "wrong_attempts": 4,
+                    "time": "04:14"
+                },
+                "E": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:26"
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "01:06"
+                },
+                "G": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "01:31"
+                },
+                "H": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 2,
+                    "time": "02:10"
+                },
+                "J": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "03:11"
+                },
+                "K": {
+                    "status": "accepted",
+                    "wrong_attempts": 2,
+                    "time": "00:50"
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 3,
+                    "time": "02:49"
+                },
+                "M": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:15"
+                }
+            },
+            "solved": 9,
+            "penalty": 1252
+        },
+        {
+            "rank": 9,
+            "name": "QwQ_GG",
+            "codeforces-team-id": 165568,
+            "problems": {
+                "A": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "B": {
+                    "status": "attempted",
+                    "wrong_attempts": 1,
+                    "time": null
+                },
+                "C": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "D": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "03:17"
+                },
+                "E": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:50"
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "02:24"
+                },
+                "G": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "01:09"
+                },
+                "H": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "01:37"
+                },
+                "J": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "K": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:38"
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "01:17"
+                },
+                "M": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:20"
+                }
+            },
+            "solved": 8,
+            "penalty": 732
+        },
+        {
+            "rank": 10,
+            "name": "bcc_ouo",
+            "codeforces-team-id": 198981,
+            "problems": {
+                "A": {
+                    "status": "attempted",
+                    "wrong_attempts": 1,
+                    "time": null
+                },
+                "B": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "C": {
+                    "status": "attempted",
+                    "wrong_attempts": 2,
+                    "time": null
+                },
+                "D": {
+                    "status": "accepted",
+                    "wrong_attempts": 2,
+                    "time": "03:37"
+                },
+                "E": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:41"
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "04:38"
+                },
+                "G": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "02:30"
+                },
+                "H": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 2,
+                    "time": "02:44"
+                },
+                "J": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "K": {
+                    "status": "accepted",
+                    "wrong_attempts": 3,
+                    "time": "00:56"
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "02:59"
+                },
+                "M": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:17"
+                }
+            },
+            "solved": 8,
+            "penalty": 1242
+        },
+        {
+            "rank": 11,
+            "name": "MixedBlood",
+            "codeforces-team-id": 198955,
+            "problems": {
+                "A": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "B": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "C": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "D": {
+                    "status": "attempted",
+                    "wrong_attempts": 10,
+                    "time": null
+                },
+                "E": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:24"
+                },
+                "F": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "G": {
+                    "status": "accepted",
+                    "wrong_attempts": 3,
+                    "time": "01:47"
+                },
+                "H": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "02:28"
+                },
+                "J": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "K": {
+                    "status": "accepted",
+                    "wrong_attempts": 1,
+                    "time": "00:48"
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "03:59"
+                },
+                "M": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:13"
+                }
+            },
+            "solved": 6,
+            "penalty": 659
+        },
+        {
+            "rank": 12,
+            "name": "5_hours_of_WA_randomly_interrupted_by_AC",
+            "codeforces-team-id": 198923,
+            "problems": {
+                "A": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "B": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "C": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "D": {
+                    "status": "attempted",
+                    "wrong_attempts": 3,
+                    "time": null
+                },
+                "E": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:50"
+                },
+                "F": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "01:30"
+                },
+                "G": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "H": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "I": {
+                    "status": "accepted",
+                    "wrong_attempts": 5,
+                    "time": "04:44"
+                },
+                "J": {
+                    "status": "unattempted",
+                    "wrong_attempts": 0,
+                    "time": null
+                },
+                "K": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "01:50"
+                },
+                "L": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "03:42"
+                },
+                "M": {
+                    "status": "accepted",
+                    "wrong_attempts": 0,
+                    "time": "00:23"
+                }
+            },
+            "solved": 6,
+            "penalty": 879
+        }
+    ],
+    "update-time": "2026/08/14 00:44:53",
+    "contest-id": 631082,
+    "contest-url": "https://codeforces.com/group/16AkdQqf1V/contest/631082",
+    "contest-type": "codeforces",
+    "title": "Latin American Regional Contest 2019"
+}

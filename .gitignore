@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.tmp
+
+live/problem.json
+live/standings.html
+live/standings.timestamp
+live/scoreboard.json
+live/status.json
+
+teams/*.html

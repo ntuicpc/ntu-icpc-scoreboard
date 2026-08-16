@@ -1,0 +1,99 @@
+{
+    "archive-id": "20250913",
+    "contest-id": 634723,
+    "title": "Practice 2025-09-13",
+    "update-time": "2026/08/14 23:33:46",
+    "teams": [
+        {
+            "name": "fruit_advantages",
+            "rank": 1,
+            "solved": 13,
+            "penalty": 1054,
+            "rating": 100.0
+        },
+        {
+            "name": "std_abs",
+            "rank": 2,
+            "solved": 13,
+            "penalty": 1441,
+            "rating": 98.57
+        },
+        {
+            "name": "PCkomachi",
+            "rank": 3,
+            "solved": 11,
+            "penalty": 830,
+            "rating": 89.88
+        },
+        {
+            "name": "SomniorumVenator",
+            "rank": 4,
+            "solved": 11,
+            "penalty": 1113,
+            "rating": 88.67
+        },
+        {
+            "name": "revoNTUlet",
+            "rank": 5,
+            "solved": 10,
+            "penalty": 721,
+            "rating": 85.21
+        },
+        {
+            "name": "LionKingGrandPa",
+            "rank": 6,
+            "solved": 10,
+            "penalty": 810,
+            "rating": 84.72
+        },
+        {
+            "name": "QwQ_GG",
+            "rank": 7,
+            "solved": 10,
+            "penalty": 870,
+            "rating": 84.44
+        },
+        {
+            "name": "Tideology",
+            "rank": 8,
+            "solved": 10,
+            "penalty": 892,
+            "rating": 84.35
+        },
+        {
+            "name": "nobook",
+            "rank": 9,
+            "solved": 10,
+            "penalty": 1101,
+            "rating": 83.66
+        },
+        {
+            "name": "MixedBlood",
+            "rank": 10,
+            "solved": 9,
+            "penalty": 765,
+            "rating": 80.79
+        },
+        {
+            "name": "5_hours_of_WA_randomly_interrupted_by_AC",
+            "rank": 11,
+            "solved": 9,
+            "penalty": 1227,
+            "rating": 79.18
+        },
+        {
+            "name": "bcc_ouo",
+            "rank": 12,
+            "solved": 8,
+            "penalty": 778,
+            "rating": 76.59
+        },
+        {
+            "name": "empty",
+            "rank": 13,
+            "solved": 8,
+            "penalty": 792,
+            "rating": 76.52
+        }
+    ]
+}
