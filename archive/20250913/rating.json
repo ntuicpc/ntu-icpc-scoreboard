@@ -1,8 +1,8 @@
 {
     "archive-id": "20250913",
     "contest-id": 634723,
-    "title": "Practice 2025-09-13",
-    "update-time": "2026/08/14 23:33:46",
+    "title": "German Collegiate Programming Contest 2024",
+    "update-time": "2026/08/17 22:39:32",
     "teams": [
         {
             "name": "fruit_advantages",
@@ -16,84 +16,84 @@
             "rank": 2,
             "solved": 13,
             "penalty": 1441,
-            "rating": 98.57
+            "rating": 94.37
         },
         {
             "name": "PCkomachi",
             "rank": 3,
             "solved": 11,
             "penalty": 830,
-            "rating": 89.88
+            "rating": 81.6
         },
         {
             "name": "SomniorumVenator",
             "rank": 4,
             "solved": 11,
             "penalty": 1113,
-            "rating": 88.67
+            "rating": 79.26
         },
         {
             "name": "revoNTUlet",
             "rank": 5,
             "solved": 10,
             "penalty": 721,
-            "rating": 85.21
+            "rating": 74.46
         },
         {
             "name": "LionKingGrandPa",
             "rank": 6,
             "solved": 10,
             "penalty": 810,
-            "rating": 84.72
+            "rating": 72.92
         },
         {
             "name": "QwQ_GG",
             "rank": 7,
             "solved": 10,
             "penalty": 870,
-            "rating": 84.44
+            "rating": 72.62
         },
         {
             "name": "Tideology",
             "rank": 8,
             "solved": 10,
             "penalty": 892,
-            "rating": 84.35
+            "rating": 72.52
         },
         {
             "name": "nobook",
             "rank": 9,
             "solved": 10,
             "penalty": 1101,
-            "rating": 83.66
+            "rating": 71.77
         },
         {
             "name": "MixedBlood",
             "rank": 10,
             "solved": 9,
             "penalty": 765,
-            "rating": 80.79
+            "rating": 68.66
         },
         {
             "name": "5_hours_of_WA_randomly_interrupted_by_AC",
             "rank": 11,
             "solved": 9,
             "penalty": 1227,
-            "rating": 79.18
+            "rating": 66.93
         },
         {
             "name": "bcc_ouo",
             "rank": 12,
             "solved": 8,
             "penalty": 778,
-            "rating": 76.59
+            "rating": 64.16
         },
         {
             "name": "empty",
             "rank": 13,
             "solved": 8,
             "penalty": 792,
-            "rating": 76.52
+            "rating": 64.09
         }
     ]
 }

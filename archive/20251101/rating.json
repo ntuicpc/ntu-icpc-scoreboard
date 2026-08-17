@@ -1,8 +1,8 @@
 {
     "archive-id": "20251101",
     "contest-id": "",
-    "title": "Practice 2025-11-01",
-    "update-time": "2026/08/15 01:04:23",
+    "title": "JAG Summer Camp 2025 Day 1",
+    "update-time": "2026/08/17 22:39:33",
     "teams": [
         {
             "name": "fruit_advantages",
@@ -16,77 +16,77 @@
             "rank": 2,
             "solved": 11,
             "penalty": 1692,
-            "rating": 99.45
+            "rating": 95.47
         },
         {
             "name": "LionKingGrandPa",
             "rank": 3,
             "solved": 9,
             "penalty": 791,
-            "rating": 88.15
+            "rating": 81.6
         },
         {
             "name": "PCkomachi",
             "rank": 4,
             "solved": 8,
             "penalty": 771,
-            "rating": 82.77
+            "rating": 75.46
         },
         {
             "name": "Tideology",
             "rank": 5,
             "solved": 8,
             "penalty": 1079,
-            "rating": 81.29
+            "rating": 73.06
         },
         {
             "name": "revoNTUlet",
             "rank": 6,
             "solved": 8,
             "penalty": 1119,
-            "rating": 81.16
+            "rating": 71.93
         },
         {
             "name": "SomniorumVenator",
             "rank": 7,
             "solved": 7,
             "penalty": 544,
-            "rating": 77.72
+            "rating": 68.66
         },
         {
             "name": "QwQ_GG",
             "rank": 8,
             "solved": 6,
             "penalty": 621,
-            "rating": 72.97
+            "rating": 64.16
         },
         {
             "name": "5_hours_of_WA_randomly_interrupted_by_AC",
             "rank": 9,
             "solved": 6,
             "penalty": 884,
-            "rating": 71.61
+            "rating": 62.89
         },
         {
             "name": "MixedBlood",
             "rank": 10,
             "solved": 5,
             "penalty": 414,
-            "rating": 68.51
+            "rating": 59.97
         },
         {
             "name": "bcc_ouo",
             "rank": 11,
             "solved": 4,
             "penalty": 228,
-            "rating": 64.33
+            "rating": 56.04
         },
         {
             "name": "empty",
             "rank": 12,
             "solved": 4,
             "penalty": 389,
-            "rating": 62.67
+            "rating": 54.49
         }
     ]
 }

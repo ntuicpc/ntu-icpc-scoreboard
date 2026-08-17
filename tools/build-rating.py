@@ -11,7 +11,14 @@ from pathlib import Path
 TOOLS_DIR = Path(__file__).resolve().parent
 PROJECT_DIR = TOOLS_DIR.parent
 ARCHIVE_DIR = PROJECT_DIR / "archive"
-ALPHA = 2
+ALPHA = 1.07
+GP5_BONUS = {
+    1: 10,
+    2: 6,
+    3: 3,
+    4: 2,
+    5: 1,
+}
 RATING_PRECISION = Decimal("0.01")
 
 sys.path.insert(0, str(PROJECT_DIR))
@@ -37,9 +44,6 @@ def build_rating(scoreboard):
         first_solved = max(int(team["solved"]) for team in teams)
     except (KeyError, TypeError, ValueError) as error:
         raise RuntimeError("Every team must have an integer solved value") from error
-
-    if first_solved <= 0:
-        raise RuntimeError("Cannot calculate ratings when the highest solved count is 0")
 
     minimum_penalty = {}
     normalized_teams = []
@@ -79,10 +83,11 @@ def build_rating(scoreboard):
         else:
             penalty_ratio = group_minimum / penalty
 
-        exponent = (
-            team["solved"] + penalty_ratio - 1
-        ) / first_solved
-        rating = (100 / ALPHA) * pow(ALPHA, exponent)
+        exponent = team["solved"] - first_solved + penalty_ratio - 1
+        rating = (
+            90 * pow(ALPHA, exponent)
+            + GP5_BONUS.get(team["rank"], 0)
+        )
 
         rating_teams.append(
             {

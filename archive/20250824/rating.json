@@ -1,8 +1,8 @@
 {
     "archive-id": "20250824",
     "contest-id": 631082,
-    "title": "Practice 2025-08-24",
-    "update-time": "2026/08/14 23:33:46",
+    "title": "Latin American Regional Contest 2019",
+    "update-time": "2026/08/17 22:39:32",
     "teams": [
         {
             "name": "PCkomachi",
@@ -16,77 +16,77 @@
             "rank": 2,
             "solved": 13,
             "penalty": 1413,
-            "rating": 99.99
+            "rating": 95.99
         },
         {
             "name": "fruit_advantages",
             "rank": 3,
             "solved": 13,
             "penalty": 1561,
-            "rating": 99.49
+            "rating": 92.42
         },
         {
             "name": "SomniorumVenator",
             "rank": 4,
             "solved": 12,
             "penalty": 1503,
-            "rating": 94.8
+            "rating": 86.11
         },
         {
             "name": "LionKingGrandPa",
             "rank": 5,
             "solved": 11,
             "penalty": 1618,
-            "rating": 89.88
+            "rating": 79.6
         },
         {
             "name": "nobook",
             "rank": 6,
             "solved": 10,
             "penalty": 1257,
-            "rating": 85.21
+            "rating": 73.46
         },
         {
             "name": "revoNTUlet",
             "rank": 7,
             "solved": 10,
             "penalty": 1328,
-            "rating": 84.97
+            "rating": 73.2
         },
         {
             "name": "Tideology",
             "rank": 8,
             "solved": 9,
             "penalty": 1252,
-            "rating": 80.79
+            "rating": 68.66
         },
         {
             "name": "QwQ_GG",
             "rank": 9,
             "solved": 8,
             "penalty": 732,
-            "rating": 76.59
+            "rating": 64.16
         },
         {
             "name": "bcc_ouo",
             "rank": 10,
             "solved": 8,
             "penalty": 1242,
-            "rating": 74.93
+            "rating": 62.41
         },
         {
             "name": "MixedBlood",
             "rank": 11,
             "solved": 6,
             "penalty": 659,
-            "rating": 68.85
+            "rating": 56.04
         },
         {
             "name": "5_hours_of_WA_randomly_interrupted_by_AC",
             "rank": 12,
             "solved": 6,
             "penalty": 879,
-            "rating": 67.93
+            "rating": 55.1
         }
     ]
 }
