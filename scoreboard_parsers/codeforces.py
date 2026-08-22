@@ -192,11 +192,6 @@ def parse_scoreboard(html, title, team_filter, update_time=None):
 
         teams.append(team)
 
-    if not teams:
-        raise RuntimeError(
-            "No configured teams were found in the Codeforces standings"
-        )
-
     mark_first_solves(teams, problems)
     sort_and_assign_ranks(teams)
 
