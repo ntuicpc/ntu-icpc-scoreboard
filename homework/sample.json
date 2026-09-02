@@ -1,0 +1,15 @@
+{
+    "title": "Homework 1",
+    "deadline": "2026/09/30 23:59:59",
+    "ended": true,
+    "scoreboards": [
+        {
+            "title": "Contest 1",
+            "url": "/archive/20260901"
+        },
+        {
+            "title": "Contest 2",
+            "url": "https://example.com/scoreboard"
+        }
+    ]
+}

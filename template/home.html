@@ -52,6 +52,21 @@
             font-size: 13px;
         }
 
+        .deadline {
+            margin-top: 6px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .homework-card {
+            align-items: flex-start;
+        }
+
+        .homework-card .links {
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+
         .contest-type {
             display: inline-block;
             margin-left: 6px;
@@ -90,6 +105,10 @@
             background: #3977a8;
         }
 
+        .button.homework {
+            background: #6666cc;
+        }
+
         .empty {
             color: #777;
         }
@@ -117,6 +136,30 @@
             </div>
         </div>
     </section>
+
+    {% if ongoing_homeworks %}
+    <section>
+        <h2>Ongoing Homework</h2>
+
+        {% for homework in ongoing_homeworks %}
+            <div class="card homework-card">
+                <div>
+                    <div class="title">{{ homework.title }}</div>
+                    <div class="deadline">Deadline: {{ homework.deadline }}</div>
+                    <div class="deadline">Time Remaining: {{ homework.remaining }}</div>
+                </div>
+
+                <div class="links">
+                    {% for scoreboard in homework.scoreboards %}
+                        <a class="button homework" href="{{ scoreboard.url }}">
+                            {{ scoreboard.title }}
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endfor %}
+    </section>
+    {% endif %}
 
     <section>
         <h2>Years</h2>

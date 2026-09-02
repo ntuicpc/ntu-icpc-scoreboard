@@ -1,0 +1,15 @@
+{
+    "title": "Homework 2",
+    "deadline": "2026/09/16 23:59:59",
+    "ended": false,
+    "scoreboards": [
+        {
+            "title": "Contest 1",
+            "url": "https://codeforces.com/group/rjXiDflPus/contest/712643"
+        },
+        {
+            "title": "Contest 2",
+            "url": "https://qoj.ac/contest/2684"
+        }
+    ]
+}

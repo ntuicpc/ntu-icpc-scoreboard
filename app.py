@@ -2,12 +2,17 @@ from flask import Flask, abort, render_template_string, request
 import argparse
 import json
 import re
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 
 PROJECT_DIR = Path(__file__).resolve().parent
 ARCHIVE_NAME_PATTERN = re.compile(r"^(\d{4})(\d{2})(\d{2})$")
 YEAR_PATTERN = re.compile(r"^\d{4}$")
+HOMEWORK_DIR = PROJECT_DIR / "homework"
+HOMEWORK_TIMEZONE = ZoneInfo("Asia/Taipei")
+HOMEWORK_DEADLINE_FORMAT = "%Y/%m/%d %H:%M:%S"
 
 app = Flask(__name__)
 
@@ -114,9 +119,92 @@ def load_archives():
     return archives
 
 
+def load_ongoing_homeworks():
+    homeworks = []
+
+    if not HOMEWORK_DIR.is_dir():
+        return homeworks
+
+    for homework_path in sorted(HOMEWORK_DIR.glob("*.json")):
+        try:
+            with homework_path.open("r", encoding="utf-8") as f:
+                homework = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            continue
+
+        if not isinstance(homework, dict) or homework.get("ended") is not False:
+            continue
+
+        scoreboards = homework.get("scoreboards", [])
+        if not isinstance(scoreboards, list):
+            scoreboards = []
+
+        deadline = homework.get("deadline", "-")
+
+        homeworks.append(
+            {
+                "id": homework_path.stem,
+                "title": homework.get("title", homework_path.stem),
+                "deadline": deadline,
+                "remaining": format_remaining_time(deadline),
+                "scoreboards": [
+                    scoreboard
+                    for scoreboard in scoreboards
+                    if isinstance(scoreboard, dict)
+                    and scoreboard.get("title")
+                    and scoreboard.get("url")
+                ],
+            }
+        )
+
+    homeworks.sort(key=homework_deadline_sort_key)
+    return homeworks
+
+
+def homework_deadline_sort_key(homework):
+    try:
+        deadline = datetime.strptime(
+            homework["deadline"], HOMEWORK_DEADLINE_FORMAT
+        )
+        invalid_deadline = False
+    except (KeyError, TypeError, ValueError):
+        deadline = datetime.max
+        invalid_deadline = True
+
+    return invalid_deadline, deadline, homework["id"].casefold()
+
+
+def format_remaining_time(deadline):
+    try:
+        deadline_time = datetime.strptime(
+            deadline, HOMEWORK_DEADLINE_FORMAT
+        ).replace(tzinfo=HOMEWORK_TIMEZONE)
+    except (TypeError, ValueError):
+        return "Unknown"
+
+    remaining_seconds = int(
+        (deadline_time - datetime.now(HOMEWORK_TIMEZONE)).total_seconds()
+    )
+    if remaining_seconds <= 0:
+        return "Expired"
+
+    days, remaining_seconds = divmod(remaining_seconds, 24 * 60 * 60)
+    hours, remaining_seconds = divmod(remaining_seconds, 60 * 60)
+    minutes = remaining_seconds // 60
+
+    parts = []
+    if days:
+        parts.append(f"{days} day{'s' if days != 1 else ''}")
+    if hours or days:
+        parts.append(f"{hours} hour{'s' if hours != 1 else ''}")
+    parts.append(f"{minutes} minute{'s' if minutes != 1 else ''}")
+    return " ".join(parts)
+
+
 @app.route("/")
 def home():
     archives = load_archives()
+    ongoing_homeworks = load_ongoing_homeworks()
     years = sorted(
         {archive["year"] for archive in archives if archive["year"]},
         reverse=True,
@@ -126,6 +214,7 @@ def home():
         home_html,
         archives=archives,
         years=years,
+        ongoing_homeworks=ongoing_homeworks,
     )
 
 
