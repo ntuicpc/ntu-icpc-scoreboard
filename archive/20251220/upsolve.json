@@ -1,1003 +1,933 @@
 {
-  "problems": [
-    "A",
-    "B",
-    "C",
-    "D",
-    "E",
-    "F",
-    "G",
-    "H",
-    "I",
-    "J",
-    "K",
-    "L"
-  ],
-  "teams": [
-    {
-      "rank": 1,
-      "name": "std_abs",
-      "problems": {
-        "A": {
-          "problem-id": 3841328,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
-          "status": "unsolved"
+    "problems": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+    ],
+    "teams": [
+        {
+            "rank": 1,
+            "name": "std_abs",
+            "problems": {
+                "A": {
+                    "problem-id": 3841328,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
+                    "status": "unsolved"
+                },
+                "B": {
+                    "problem-id": 3841329,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
+                    "status": "contest-solved"
+                },
+                "C": {
+                    "problem-id": 3841330,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
+                    "status": "contest-solved"
+                },
+                "D": {
+                    "problem-id": 3841331,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 3841332,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
+                    "status": "contest-solved"
+                },
+                "F": {
+                    "problem-id": 3841333,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
+                    "status": "contest-solved"
+                },
+                "G": {
+                    "problem-id": 3841334,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
+                    "status": "contest-solved"
+                },
+                "H": {
+                    "problem-id": 3841335,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 3841336,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
+                    "status": "contest-solved"
+                },
+                "J": {
+                    "problem-id": 3841337,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
+                    "status": "contest-solved"
+                },
+                "K": {
+                    "problem-id": 3841338,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 3841339,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 10,
+            "upsolved": 0,
+            "total-solved": 10,
+            "contest-rank": 1
         },
-        "B": {
-          "problem-id": 3841329,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
-          "status": "contest-solved"
+        {
+            "rank": 2,
+            "name": "PCkomachi",
+            "problems": {
+                "A": {
+                    "problem-id": 3841328,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
+                    "status": "unsolved"
+                },
+                "B": {
+                    "problem-id": 3841329,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
+                    "status": "contest-solved"
+                },
+                "C": {
+                    "problem-id": 3841330,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
+                    "status": "contest-solved"
+                },
+                "D": {
+                    "problem-id": 3841331,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 3841332,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
+                    "status": "contest-solved"
+                },
+                "F": {
+                    "problem-id": 3841333,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
+                    "status": "contest-solved"
+                },
+                "G": {
+                    "problem-id": 3841334,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
+                    "status": "contest-solved"
+                },
+                "H": {
+                    "problem-id": 3841335,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 3841336,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
+                    "status": "contest-solved"
+                },
+                "J": {
+                    "problem-id": 3841337,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
+                    "status": "contest-solved"
+                },
+                "K": {
+                    "problem-id": 3841338,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 3841339,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 10,
+            "upsolved": 0,
+            "total-solved": 10,
+            "contest-rank": 2
         },
-        "C": {
-          "problem-id": 3841330,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
-          "status": "contest-solved"
+        {
+            "rank": 3,
+            "name": "Tideology",
+            "problems": {
+                "A": {
+                    "problem-id": 3841328,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
+                    "status": "unsolved"
+                },
+                "B": {
+                    "problem-id": 3841329,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 3841330,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
+                    "status": "contest-solved"
+                },
+                "D": {
+                    "problem-id": 3841331,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 3841332,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
+                    "status": "contest-solved"
+                },
+                "F": {
+                    "problem-id": 3841333,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
+                    "status": "upsolved"
+                },
+                "G": {
+                    "problem-id": 3841334,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
+                    "status": "contest-solved"
+                },
+                "H": {
+                    "problem-id": 3841335,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 3841336,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
+                    "status": "contest-solved"
+                },
+                "J": {
+                    "problem-id": 3841337,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
+                    "status": "contest-solved"
+                },
+                "K": {
+                    "problem-id": 3841338,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 3841339,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 8,
+            "upsolved": 1,
+            "total-solved": 9,
+            "contest-rank": 7
         },
-        "D": {
-          "problem-id": 3841331,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
-          "status": "contest-solved"
+        {
+            "rank": 4,
+            "name": "nobook",
+            "problems": {
+                "A": {
+                    "problem-id": 3841328,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
+                    "status": "unsolved"
+                },
+                "B": {
+                    "problem-id": 3841329,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 3841330,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
+                    "status": "contest-solved"
+                },
+                "D": {
+                    "problem-id": 3841331,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 3841332,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
+                    "status": "contest-solved"
+                },
+                "F": {
+                    "problem-id": 3841333,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
+                    "status": "contest-solved"
+                },
+                "G": {
+                    "problem-id": 3841334,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
+                    "status": "contest-solved"
+                },
+                "H": {
+                    "problem-id": 3841335,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 3841336,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
+                    "status": "contest-solved"
+                },
+                "J": {
+                    "problem-id": 3841337,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
+                    "status": "contest-solved"
+                },
+                "K": {
+                    "problem-id": 3841338,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 3841339,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 9,
+            "upsolved": 0,
+            "total-solved": 9,
+            "contest-rank": 3
         },
-        "E": {
-          "problem-id": 3841332,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
-          "status": "contest-solved"
+        {
+            "rank": 5,
+            "name": "SomniorumVenator",
+            "problems": {
+                "A": {
+                    "problem-id": 3841328,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
+                    "status": "unsolved"
+                },
+                "B": {
+                    "problem-id": 3841329,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 3841330,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
+                    "status": "contest-solved"
+                },
+                "D": {
+                    "problem-id": 3841331,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 3841332,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
+                    "status": "contest-solved"
+                },
+                "F": {
+                    "problem-id": 3841333,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
+                    "status": "contest-solved"
+                },
+                "G": {
+                    "problem-id": 3841334,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
+                    "status": "contest-solved"
+                },
+                "H": {
+                    "problem-id": 3841335,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 3841336,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
+                    "status": "contest-solved"
+                },
+                "J": {
+                    "problem-id": 3841337,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
+                    "status": "contest-solved"
+                },
+                "K": {
+                    "problem-id": 3841338,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 3841339,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 9,
+            "upsolved": 0,
+            "total-solved": 9,
+            "contest-rank": 4
         },
-        "F": {
-          "problem-id": 3841333,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
-          "status": "contest-solved"
+        {
+            "rank": 6,
+            "name": "revoNTUlet",
+            "problems": {
+                "A": {
+                    "problem-id": 3841328,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
+                    "status": "unsolved"
+                },
+                "B": {
+                    "problem-id": 3841329,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 3841330,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
+                    "status": "contest-solved"
+                },
+                "D": {
+                    "problem-id": 3841331,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 3841332,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
+                    "status": "contest-solved"
+                },
+                "F": {
+                    "problem-id": 3841333,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
+                    "status": "contest-solved"
+                },
+                "G": {
+                    "problem-id": 3841334,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
+                    "status": "contest-solved"
+                },
+                "H": {
+                    "problem-id": 3841335,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 3841336,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
+                    "status": "contest-solved"
+                },
+                "J": {
+                    "problem-id": 3841337,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
+                    "status": "contest-solved"
+                },
+                "K": {
+                    "problem-id": 3841338,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 3841339,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 9,
+            "upsolved": 0,
+            "total-solved": 9,
+            "contest-rank": 5
         },
-        "G": {
-          "problem-id": 3841334,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
-          "status": "contest-solved"
+        {
+            "rank": 7,
+            "name": "LionKingGrandPa",
+            "problems": {
+                "A": {
+                    "problem-id": 3841328,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
+                    "status": "unsolved"
+                },
+                "B": {
+                    "problem-id": 3841329,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 3841330,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
+                    "status": "contest-solved"
+                },
+                "D": {
+                    "problem-id": 3841331,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 3841332,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
+                    "status": "contest-solved"
+                },
+                "F": {
+                    "problem-id": 3841333,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
+                    "status": "unsolved"
+                },
+                "G": {
+                    "problem-id": 3841334,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
+                    "status": "contest-solved"
+                },
+                "H": {
+                    "problem-id": 3841335,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 3841336,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
+                    "status": "contest-solved"
+                },
+                "J": {
+                    "problem-id": 3841337,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
+                    "status": "contest-solved"
+                },
+                "K": {
+                    "problem-id": 3841338,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 3841339,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 8,
+            "upsolved": 0,
+            "total-solved": 8,
+            "contest-rank": 6
         },
-        "H": {
-          "problem-id": 3841335,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
-          "status": "contest-solved"
+        {
+            "rank": 8,
+            "name": "NTNU_2beatdown",
+            "problems": {
+                "A": {
+                    "problem-id": 3841328,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
+                    "status": "unsolved"
+                },
+                "B": {
+                    "problem-id": 3841329,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 3841330,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
+                    "status": "contest-solved"
+                },
+                "D": {
+                    "problem-id": 3841331,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 3841332,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
+                    "status": "contest-solved"
+                },
+                "F": {
+                    "problem-id": 3841333,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
+                    "status": "unsolved"
+                },
+                "G": {
+                    "problem-id": 3841334,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
+                    "status": "contest-solved"
+                },
+                "H": {
+                    "problem-id": 3841335,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 3841336,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
+                    "status": "contest-solved"
+                },
+                "J": {
+                    "problem-id": 3841337,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
+                    "status": "contest-solved"
+                },
+                "K": {
+                    "problem-id": 3841338,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 3841339,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 8,
+            "upsolved": 0,
+            "total-solved": 8,
+            "contest-rank": 8
         },
-        "I": {
-          "problem-id": 3841336,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
-          "status": "contest-solved"
+        {
+            "rank": 9,
+            "name": "5_hours_of_WA_randomly_interrupted_by_AC",
+            "problems": {
+                "A": {
+                    "problem-id": 3841328,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
+                    "status": "unsolved"
+                },
+                "B": {
+                    "problem-id": 3841329,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 3841330,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
+                    "status": "contest-solved"
+                },
+                "D": {
+                    "problem-id": 3841331,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 3841332,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
+                    "status": "contest-solved"
+                },
+                "F": {
+                    "problem-id": 3841333,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
+                    "status": "unsolved"
+                },
+                "G": {
+                    "problem-id": 3841334,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
+                    "status": "contest-solved"
+                },
+                "H": {
+                    "problem-id": 3841335,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 3841336,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
+                    "status": "upsolved"
+                },
+                "J": {
+                    "problem-id": 3841337,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
+                    "status": "unsolved"
+                },
+                "K": {
+                    "problem-id": 3841338,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 3841339,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 6,
+            "upsolved": 1,
+            "total-solved": 7,
+            "contest-rank": 11
         },
-        "J": {
-          "problem-id": 3841337,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
-          "status": "contest-solved"
+        {
+            "rank": 10,
+            "name": "bcc_ouo",
+            "problems": {
+                "A": {
+                    "problem-id": 3841328,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
+                    "status": "unsolved"
+                },
+                "B": {
+                    "problem-id": 3841329,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 3841330,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
+                    "status": "contest-solved"
+                },
+                "D": {
+                    "problem-id": 3841331,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 3841332,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
+                    "status": "contest-solved"
+                },
+                "F": {
+                    "problem-id": 3841333,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
+                    "status": "unsolved"
+                },
+                "G": {
+                    "problem-id": 3841334,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
+                    "status": "contest-solved"
+                },
+                "H": {
+                    "problem-id": 3841335,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 3841336,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
+                    "status": "contest-solved"
+                },
+                "J": {
+                    "problem-id": 3841337,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
+                    "status": "unsolved"
+                },
+                "K": {
+                    "problem-id": 3841338,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 3841339,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 7,
+            "upsolved": 0,
+            "total-solved": 7,
+            "contest-rank": 9
         },
-        "K": {
-          "problem-id": 3841338,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
-          "status": "unsolved"
+        {
+            "rank": 11,
+            "name": "QwQ_GG",
+            "problems": {
+                "A": {
+                    "problem-id": 3841328,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
+                    "status": "unsolved"
+                },
+                "B": {
+                    "problem-id": 3841329,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 3841330,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
+                    "status": "contest-solved"
+                },
+                "D": {
+                    "problem-id": 3841331,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 3841332,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
+                    "status": "contest-solved"
+                },
+                "F": {
+                    "problem-id": 3841333,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
+                    "status": "unsolved"
+                },
+                "G": {
+                    "problem-id": 3841334,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
+                    "status": "contest-solved"
+                },
+                "H": {
+                    "problem-id": 3841335,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
+                    "status": "upsolved"
+                },
+                "I": {
+                    "problem-id": 3841336,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
+                    "status": "unsolved"
+                },
+                "J": {
+                    "problem-id": 3841337,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
+                    "status": "unsolved"
+                },
+                "K": {
+                    "problem-id": 3841338,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 3841339,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 5,
+            "upsolved": 1,
+            "total-solved": 6,
+            "contest-rank": 12
         },
-        "L": {
-          "problem-id": 3841339,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
-          "status": "contest-solved"
+        {
+            "rank": 12,
+            "name": "MixedBlood",
+            "problems": {
+                "A": {
+                    "problem-id": 3841328,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
+                    "status": "unsolved"
+                },
+                "B": {
+                    "problem-id": 3841329,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 3841330,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
+                    "status": "contest-solved"
+                },
+                "D": {
+                    "problem-id": 3841331,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 3841332,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
+                    "status": "contest-solved"
+                },
+                "F": {
+                    "problem-id": 3841333,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
+                    "status": "unsolved"
+                },
+                "G": {
+                    "problem-id": 3841334,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
+                    "status": "contest-solved"
+                },
+                "H": {
+                    "problem-id": 3841335,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 3841336,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
+                    "status": "unsolved"
+                },
+                "J": {
+                    "problem-id": 3841337,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
+                    "status": "unsolved"
+                },
+                "K": {
+                    "problem-id": 3841338,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 3841339,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 6,
+            "upsolved": 0,
+            "total-solved": 6,
+            "contest-rank": 10
+        },
+        {
+            "rank": 13,
+            "name": "empty",
+            "problems": {
+                "A": {
+                    "problem-id": 3841328,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
+                    "status": "unsolved"
+                },
+                "B": {
+                    "problem-id": 3841329,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 3841330,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
+                    "status": "contest-solved"
+                },
+                "D": {
+                    "problem-id": 3841331,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 3841332,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
+                    "status": "unsolved"
+                },
+                "F": {
+                    "problem-id": 3841333,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
+                    "status": "unsolved"
+                },
+                "G": {
+                    "problem-id": 3841334,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
+                    "status": "contest-solved"
+                },
+                "H": {
+                    "problem-id": 3841335,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 3841336,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
+                    "status": "unsolved"
+                },
+                "J": {
+                    "problem-id": 3841337,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
+                    "status": "unsolved"
+                },
+                "K": {
+                    "problem-id": 3841338,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 3841339,
+                    "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 5,
+            "upsolved": 0,
+            "total-solved": 5,
+            "contest-rank": 13
         }
-      },
-      "contest-solved": 10,
-      "upsolved": 0,
-      "total-solved": 10,
-      "contest-rank": 1
-    },
-    {
-      "rank": 2,
-      "name": "PCkomachi",
-      "problems": {
-        "A": {
-          "problem-id": 3841328,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
-          "status": "unsolved"
-        },
-        "B": {
-          "problem-id": 3841329,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
-          "status": "contest-solved"
-        },
-        "C": {
-          "problem-id": 3841330,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
-          "status": "contest-solved"
-        },
-        "D": {
-          "problem-id": 3841331,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
-          "status": "contest-solved"
-        },
-        "E": {
-          "problem-id": 3841332,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
-          "status": "contest-solved"
-        },
-        "F": {
-          "problem-id": 3841333,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
-          "status": "contest-solved"
-        },
-        "G": {
-          "problem-id": 3841334,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
-          "status": "contest-solved"
-        },
-        "H": {
-          "problem-id": 3841335,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
-          "status": "contest-solved"
-        },
-        "I": {
-          "problem-id": 3841336,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
-          "status": "contest-solved"
-        },
-        "J": {
-          "problem-id": 3841337,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
-          "status": "contest-solved"
-        },
-        "K": {
-          "problem-id": 3841338,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
-          "status": "unsolved"
-        },
-        "L": {
-          "problem-id": 3841339,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
-          "status": "contest-solved"
-        }
-      },
-      "contest-solved": 10,
-      "upsolved": 0,
-      "total-solved": 10,
-      "contest-rank": 2
-    },
-    {
-      "rank": 3,
-      "name": "Tideology",
-      "problems": {
-        "A": {
-          "problem-id": 3841328,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
-          "status": "unsolved"
-        },
-        "B": {
-          "problem-id": 3841329,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
-          "status": "unsolved"
-        },
-        "C": {
-          "problem-id": 3841330,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
-          "status": "contest-solved"
-        },
-        "D": {
-          "problem-id": 3841331,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
-          "status": "contest-solved"
-        },
-        "E": {
-          "problem-id": 3841332,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
-          "status": "contest-solved"
-        },
-        "F": {
-          "problem-id": 3841333,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
-          "status": "upsolved"
-        },
-        "G": {
-          "problem-id": 3841334,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
-          "status": "contest-solved"
-        },
-        "H": {
-          "problem-id": 3841335,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
-          "status": "contest-solved"
-        },
-        "I": {
-          "problem-id": 3841336,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
-          "status": "contest-solved"
-        },
-        "J": {
-          "problem-id": 3841337,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
-          "status": "contest-solved"
-        },
-        "K": {
-          "problem-id": 3841338,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
-          "status": "unsolved"
-        },
-        "L": {
-          "problem-id": 3841339,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
-          "status": "contest-solved"
-        }
-      },
-      "contest-solved": 8,
-      "upsolved": 1,
-      "total-solved": 9,
-      "contest-rank": 7
-    },
-    {
-      "rank": 4,
-      "name": "nobook",
-      "problems": {
-        "A": {
-          "problem-id": 3841328,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
-          "status": "unsolved"
-        },
-        "B": {
-          "problem-id": 3841329,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
-          "status": "unsolved"
-        },
-        "C": {
-          "problem-id": 3841330,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
-          "status": "contest-solved"
-        },
-        "D": {
-          "problem-id": 3841331,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
-          "status": "contest-solved"
-        },
-        "E": {
-          "problem-id": 3841332,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
-          "status": "contest-solved"
-        },
-        "F": {
-          "problem-id": 3841333,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
-          "status": "contest-solved"
-        },
-        "G": {
-          "problem-id": 3841334,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
-          "status": "contest-solved"
-        },
-        "H": {
-          "problem-id": 3841335,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
-          "status": "contest-solved"
-        },
-        "I": {
-          "problem-id": 3841336,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
-          "status": "contest-solved"
-        },
-        "J": {
-          "problem-id": 3841337,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
-          "status": "contest-solved"
-        },
-        "K": {
-          "problem-id": 3841338,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
-          "status": "unsolved"
-        },
-        "L": {
-          "problem-id": 3841339,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
-          "status": "contest-solved"
-        }
-      },
-      "contest-solved": 9,
-      "upsolved": 0,
-      "total-solved": 9,
-      "contest-rank": 3
-    },
-    {
-      "rank": 5,
-      "name": "SomniorumVenator",
-      "problems": {
-        "A": {
-          "problem-id": 3841328,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
-          "status": "unsolved"
-        },
-        "B": {
-          "problem-id": 3841329,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
-          "status": "unsolved"
-        },
-        "C": {
-          "problem-id": 3841330,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
-          "status": "contest-solved"
-        },
-        "D": {
-          "problem-id": 3841331,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
-          "status": "contest-solved"
-        },
-        "E": {
-          "problem-id": 3841332,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
-          "status": "contest-solved"
-        },
-        "F": {
-          "problem-id": 3841333,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
-          "status": "contest-solved"
-        },
-        "G": {
-          "problem-id": 3841334,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
-          "status": "contest-solved"
-        },
-        "H": {
-          "problem-id": 3841335,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
-          "status": "contest-solved"
-        },
-        "I": {
-          "problem-id": 3841336,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
-          "status": "contest-solved"
-        },
-        "J": {
-          "problem-id": 3841337,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
-          "status": "contest-solved"
-        },
-        "K": {
-          "problem-id": 3841338,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
-          "status": "unsolved"
-        },
-        "L": {
-          "problem-id": 3841339,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
-          "status": "contest-solved"
-        }
-      },
-      "contest-solved": 9,
-      "upsolved": 0,
-      "total-solved": 9,
-      "contest-rank": 4
-    },
-    {
-      "rank": 6,
-      "name": "revoNTUlet",
-      "problems": {
-        "A": {
-          "problem-id": 3841328,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
-          "status": "unsolved"
-        },
-        "B": {
-          "problem-id": 3841329,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
-          "status": "unsolved"
-        },
-        "C": {
-          "problem-id": 3841330,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
-          "status": "contest-solved"
-        },
-        "D": {
-          "problem-id": 3841331,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
-          "status": "contest-solved"
-        },
-        "E": {
-          "problem-id": 3841332,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
-          "status": "contest-solved"
-        },
-        "F": {
-          "problem-id": 3841333,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
-          "status": "contest-solved"
-        },
-        "G": {
-          "problem-id": 3841334,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
-          "status": "contest-solved"
-        },
-        "H": {
-          "problem-id": 3841335,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
-          "status": "contest-solved"
-        },
-        "I": {
-          "problem-id": 3841336,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
-          "status": "contest-solved"
-        },
-        "J": {
-          "problem-id": 3841337,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
-          "status": "contest-solved"
-        },
-        "K": {
-          "problem-id": 3841338,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
-          "status": "unsolved"
-        },
-        "L": {
-          "problem-id": 3841339,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
-          "status": "contest-solved"
-        }
-      },
-      "contest-solved": 9,
-      "upsolved": 0,
-      "total-solved": 9,
-      "contest-rank": 5
-    },
-    {
-      "rank": 7,
-      "name": "LionKingGrandPa",
-      "problems": {
-        "A": {
-          "problem-id": 3841328,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
-          "status": "unsolved"
-        },
-        "B": {
-          "problem-id": 3841329,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
-          "status": "unsolved"
-        },
-        "C": {
-          "problem-id": 3841330,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
-          "status": "contest-solved"
-        },
-        "D": {
-          "problem-id": 3841331,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
-          "status": "contest-solved"
-        },
-        "E": {
-          "problem-id": 3841332,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
-          "status": "contest-solved"
-        },
-        "F": {
-          "problem-id": 3841333,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
-          "status": "unsolved"
-        },
-        "G": {
-          "problem-id": 3841334,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
-          "status": "contest-solved"
-        },
-        "H": {
-          "problem-id": 3841335,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
-          "status": "contest-solved"
-        },
-        "I": {
-          "problem-id": 3841336,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
-          "status": "contest-solved"
-        },
-        "J": {
-          "problem-id": 3841337,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
-          "status": "contest-solved"
-        },
-        "K": {
-          "problem-id": 3841338,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
-          "status": "unsolved"
-        },
-        "L": {
-          "problem-id": 3841339,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
-          "status": "contest-solved"
-        }
-      },
-      "contest-solved": 8,
-      "upsolved": 0,
-      "total-solved": 8,
-      "contest-rank": 6
-    },
-    {
-      "rank": 8,
-      "name": "NTNU_2beatdown",
-      "problems": {
-        "A": {
-          "problem-id": 3841328,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
-          "status": "unsolved"
-        },
-        "B": {
-          "problem-id": 3841329,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
-          "status": "unsolved"
-        },
-        "C": {
-          "problem-id": 3841330,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
-          "status": "contest-solved"
-        },
-        "D": {
-          "problem-id": 3841331,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
-          "status": "contest-solved"
-        },
-        "E": {
-          "problem-id": 3841332,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
-          "status": "contest-solved"
-        },
-        "F": {
-          "problem-id": 3841333,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
-          "status": "unsolved"
-        },
-        "G": {
-          "problem-id": 3841334,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
-          "status": "contest-solved"
-        },
-        "H": {
-          "problem-id": 3841335,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
-          "status": "contest-solved"
-        },
-        "I": {
-          "problem-id": 3841336,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
-          "status": "contest-solved"
-        },
-        "J": {
-          "problem-id": 3841337,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
-          "status": "contest-solved"
-        },
-        "K": {
-          "problem-id": 3841338,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
-          "status": "unsolved"
-        },
-        "L": {
-          "problem-id": 3841339,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
-          "status": "contest-solved"
-        }
-      },
-      "contest-solved": 8,
-      "upsolved": 0,
-      "total-solved": 8,
-      "contest-rank": 8
-    },
-    {
-      "rank": 9,
-      "name": "5_hours_of_WA_randomly_interrupted_by_AC",
-      "problems": {
-        "A": {
-          "problem-id": 3841328,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
-          "status": "unsolved"
-        },
-        "B": {
-          "problem-id": 3841329,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
-          "status": "unsolved"
-        },
-        "C": {
-          "problem-id": 3841330,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
-          "status": "contest-solved"
-        },
-        "D": {
-          "problem-id": 3841331,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
-          "status": "contest-solved"
-        },
-        "E": {
-          "problem-id": 3841332,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
-          "status": "contest-solved"
-        },
-        "F": {
-          "problem-id": 3841333,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
-          "status": "unsolved"
-        },
-        "G": {
-          "problem-id": 3841334,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
-          "status": "contest-solved"
-        },
-        "H": {
-          "problem-id": 3841335,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
-          "status": "contest-solved"
-        },
-        "I": {
-          "problem-id": 3841336,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
-          "status": "upsolved"
-        },
-        "J": {
-          "problem-id": 3841337,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
-          "status": "unsolved"
-        },
-        "K": {
-          "problem-id": 3841338,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
-          "status": "unsolved"
-        },
-        "L": {
-          "problem-id": 3841339,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
-          "status": "contest-solved"
-        }
-      },
-      "contest-solved": 6,
-      "upsolved": 1,
-      "total-solved": 7,
-      "contest-rank": 11
-    },
-    {
-      "rank": 10,
-      "name": "bcc_ouo",
-      "problems": {
-        "A": {
-          "problem-id": 3841328,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
-          "status": "unsolved"
-        },
-        "B": {
-          "problem-id": 3841329,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
-          "status": "unsolved"
-        },
-        "C": {
-          "problem-id": 3841330,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
-          "status": "contest-solved"
-        },
-        "D": {
-          "problem-id": 3841331,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
-          "status": "contest-solved"
-        },
-        "E": {
-          "problem-id": 3841332,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
-          "status": "contest-solved"
-        },
-        "F": {
-          "problem-id": 3841333,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
-          "status": "unsolved"
-        },
-        "G": {
-          "problem-id": 3841334,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
-          "status": "contest-solved"
-        },
-        "H": {
-          "problem-id": 3841335,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
-          "status": "contest-solved"
-        },
-        "I": {
-          "problem-id": 3841336,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
-          "status": "contest-solved"
-        },
-        "J": {
-          "problem-id": 3841337,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
-          "status": "unsolved"
-        },
-        "K": {
-          "problem-id": 3841338,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
-          "status": "unsolved"
-        },
-        "L": {
-          "problem-id": 3841339,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
-          "status": "contest-solved"
-        }
-      },
-      "contest-solved": 7,
-      "upsolved": 0,
-      "total-solved": 7,
-      "contest-rank": 9
-    },
-    {
-      "rank": 11,
-      "name": "QwQ_GG",
-      "problems": {
-        "A": {
-          "problem-id": 3841328,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
-          "status": "unsolved"
-        },
-        "B": {
-          "problem-id": 3841329,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
-          "status": "unsolved"
-        },
-        "C": {
-          "problem-id": 3841330,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
-          "status": "contest-solved"
-        },
-        "D": {
-          "problem-id": 3841331,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
-          "status": "contest-solved"
-        },
-        "E": {
-          "problem-id": 3841332,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
-          "status": "contest-solved"
-        },
-        "F": {
-          "problem-id": 3841333,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
-          "status": "unsolved"
-        },
-        "G": {
-          "problem-id": 3841334,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
-          "status": "contest-solved"
-        },
-        "H": {
-          "problem-id": 3841335,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
-          "status": "upsolved"
-        },
-        "I": {
-          "problem-id": 3841336,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
-          "status": "unsolved"
-        },
-        "J": {
-          "problem-id": 3841337,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
-          "status": "unsolved"
-        },
-        "K": {
-          "problem-id": 3841338,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
-          "status": "unsolved"
-        },
-        "L": {
-          "problem-id": 3841339,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
-          "status": "contest-solved"
-        }
-      },
-      "contest-solved": 5,
-      "upsolved": 1,
-      "total-solved": 6,
-      "contest-rank": 12
-    },
-    {
-      "rank": 12,
-      "name": "MixedBlood",
-      "problems": {
-        "A": {
-          "problem-id": 3841328,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
-          "status": "unsolved"
-        },
-        "B": {
-          "problem-id": 3841329,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
-          "status": "unsolved"
-        },
-        "C": {
-          "problem-id": 3841330,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
-          "status": "contest-solved"
-        },
-        "D": {
-          "problem-id": 3841331,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
-          "status": "contest-solved"
-        },
-        "E": {
-          "problem-id": 3841332,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
-          "status": "contest-solved"
-        },
-        "F": {
-          "problem-id": 3841333,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
-          "status": "unsolved"
-        },
-        "G": {
-          "problem-id": 3841334,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
-          "status": "contest-solved"
-        },
-        "H": {
-          "problem-id": 3841335,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
-          "status": "contest-solved"
-        },
-        "I": {
-          "problem-id": 3841336,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
-          "status": "unsolved"
-        },
-        "J": {
-          "problem-id": 3841337,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
-          "status": "unsolved"
-        },
-        "K": {
-          "problem-id": 3841338,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
-          "status": "unsolved"
-        },
-        "L": {
-          "problem-id": 3841339,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
-          "status": "contest-solved"
-        }
-      },
-      "contest-solved": 6,
-      "upsolved": 0,
-      "total-solved": 6,
-      "contest-rank": 10
-    },
-    {
-      "rank": 13,
-      "name": "empty",
-      "problems": {
-        "A": {
-          "problem-id": 3841328,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
-          "status": "unsolved"
-        },
-        "B": {
-          "problem-id": 3841329,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
-          "status": "unsolved"
-        },
-        "C": {
-          "problem-id": 3841330,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
-          "status": "contest-solved"
-        },
-        "D": {
-          "problem-id": 3841331,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
-          "status": "contest-solved"
-        },
-        "E": {
-          "problem-id": 3841332,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
-          "status": "unsolved"
-        },
-        "F": {
-          "problem-id": 3841333,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
-          "status": "unsolved"
-        },
-        "G": {
-          "problem-id": 3841334,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
-          "status": "contest-solved"
-        },
-        "H": {
-          "problem-id": 3841335,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
-          "status": "contest-solved"
-        },
-        "I": {
-          "problem-id": 3841336,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
-          "status": "unsolved"
-        },
-        "J": {
-          "problem-id": 3841337,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
-          "status": "unsolved"
-        },
-        "K": {
-          "problem-id": 3841338,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
-          "status": "unsolved"
-        },
-        "L": {
-          "problem-id": 3841339,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
-          "status": "contest-solved"
-        }
-      },
-      "contest-solved": 5,
-      "upsolved": 0,
-      "total-solved": 5,
-      "contest-rank": 13
-    },
-    {
-      "rank": 14,
-      "name": "fruit_advantages",
-      "problems": {
-        "A": {
-          "problem-id": 3841328,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/A",
-          "status": "unsolved"
-        },
-        "B": {
-          "problem-id": 3841329,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/B",
-          "status": "unsolved"
-        },
-        "C": {
-          "problem-id": 3841330,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/C",
-          "status": "unsolved"
-        },
-        "D": {
-          "problem-id": 3841331,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/D",
-          "status": "unsolved"
-        },
-        "E": {
-          "problem-id": 3841332,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/E",
-          "status": "unsolved"
-        },
-        "F": {
-          "problem-id": 3841333,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/F",
-          "status": "unsolved"
-        },
-        "G": {
-          "problem-id": 3841334,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/G",
-          "status": "unsolved"
-        },
-        "H": {
-          "problem-id": 3841335,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/H",
-          "status": "unsolved"
-        },
-        "I": {
-          "problem-id": 3841336,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/I",
-          "status": "unsolved"
-        },
-        "J": {
-          "problem-id": 3841337,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/J",
-          "status": "unsolved"
-        },
-        "K": {
-          "problem-id": 3841338,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/K",
-          "status": "unsolved"
-        },
-        "L": {
-          "problem-id": 3841339,
-          "url": "https://codeforces.com/group/16AkdQqf1V/contest/659682/problem/L",
-          "status": "unsolved"
-        }
-      },
-      "contest-solved": 0,
-      "upsolved": 0,
-      "total-solved": 0,
-      "contest-rank": null
-    }
-  ],
-  "update-time": "2026/09/02 12:26:38",
-  "contest-id": 659682,
-  "contest-url": "https://codeforces.com/group/16AkdQqf1V/contest/659682",
-  "contest-type": "codeforces",
-  "title": "OCPC Winter 2023 Day 5 - Upsolve"
+    ],
+    "update-time": "2026/09/02 12:26:38",
+    "contest-id": 659682,
+    "contest-url": "https://codeforces.com/group/16AkdQqf1V/contest/659682",
+    "contest-type": "codeforces",
+    "title": "OCPC Winter 2023 Day 5 - Upsolve"
 }

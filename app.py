@@ -41,7 +41,32 @@ def format_contest_type(contest_type):
     return "Unknown"
 
 
-def render_scoreboard(html, scoreboard_path):
+def get_dirt_attempts(team):
+    solved_statuses = {"accepted", "first-solve"}
+    solved_results = [
+        result
+        for result in team["problems"].values()
+        if result.get("status") in solved_statuses
+    ]
+    correct_attempts = len(solved_results)
+    wrong_attempts = sum(
+        result.get("wrong_attempts", 0) for result in solved_results
+    )
+    return wrong_attempts, correct_attempts
+
+
+def add_dirt_percent(teams):
+    for team in teams:
+        wrong_attempts, correct_attempts = get_dirt_attempts(team)
+        total_attempts = correct_attempts + wrong_attempts
+        team["dirt"] = (
+            int(100 * wrong_attempts / total_attempts + 0.5)
+            if total_attempts
+            else None
+        )
+
+
+def render_scoreboard(html, scoreboard_path, include_dirt=False):
     try:
         with scoreboard_path.open("r", encoding="utf-8") as f:
             data = json.load(f)
@@ -51,6 +76,9 @@ def render_scoreboard(html, scoreboard_path):
             problem_map = json.load(f)
     except FileNotFoundError:
         abort(404)
+
+    if include_dirt:
+        add_dirt_percent(data["teams"])
 
     return render_template_string(
         html,
@@ -248,6 +276,9 @@ def year_scoreboard(year):
                     "second": 0,
                     "third": 0,
                     "contests": 0,
+                    "solved_sum": 0,
+                    "dirt_wrong_attempts": 0,
+                    "dirt_correct_attempts": 0,
                     "rating_sum": 0.0,
                     "rating_contests": 0,
                 },
@@ -255,6 +286,12 @@ def year_scoreboard(year):
             rank = archived_team["rank"]
             team["ranks"][archive["name"]] = rank
             team["contests"] += 1
+            team["solved_sum"] += archived_team["solved"]
+            wrong_attempts, correct_attempts = get_dirt_attempts(
+                archived_team
+            )
+            team["dirt_wrong_attempts"] += wrong_attempts
+            team["dirt_correct_attempts"] += correct_attempts
             if rank == 1:
                 team["first"] += 1
             elif rank == 2:
@@ -286,6 +323,17 @@ def year_scoreboard(year):
 
     yearly_teams = list(teams.values())
     for team in yearly_teams:
+        team["average_solved"] = round(
+            team["solved_sum"] / team["contests"], 2
+        )
+        dirt_attempts = (
+            team["dirt_wrong_attempts"] + team["dirt_correct_attempts"]
+        )
+        team["average_dirt"] = (
+            round(100 * team["dirt_wrong_attempts"] / dirt_attempts, 2)
+            if dirt_attempts
+            else None
+        )
         if team["rating_contests"]:
             team["average_rating"] = round(
                 team["rating_sum"] / team["rating_contests"],
@@ -294,6 +342,9 @@ def year_scoreboard(year):
         else:
             team["average_rating"] = None
         del team["rating_sum"]
+        del team["solved_sum"]
+        del team["dirt_wrong_attempts"]
+        del team["dirt_correct_attempts"]
 
     if mode == "rating":
         yearly_teams.sort(
@@ -328,7 +379,9 @@ def scoreboard():
         return render_template_string(live_unavailable_html)
 
     scoreboard_path = PROJECT_DIR / "live" / "scoreboard.json"
-    return render_scoreboard(scoreboard_html, scoreboard_path)
+    return render_scoreboard(
+        scoreboard_html, scoreboard_path, include_dirt=True
+    )
 
 
 @app.route("/archive/<archive_name>")
@@ -338,7 +391,9 @@ def archived_scoreboard(archive_name):
     scoreboard_path = (
         PROJECT_DIR / "archive" / archive_name / "scoreboard.json"
     )
-    return render_scoreboard(scoreboard_html, scoreboard_path)
+    return render_scoreboard(
+        scoreboard_html, scoreboard_path, include_dirt=True
+    )
 
 
 @app.route("/upsolve/<archive_name>")

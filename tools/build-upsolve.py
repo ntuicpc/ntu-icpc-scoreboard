@@ -231,6 +231,10 @@ def build_upsolve(archive_path, codeforces_html_path=None):
                 "status": status,
             }
 
+        total_solved = contest_solved + upsolved
+        if total_solved == 0:
+            continue
+
         upsolve_teams.append(
             {
                 "rank": 0,
@@ -238,7 +242,7 @@ def build_upsolve(archive_path, codeforces_html_path=None):
                 "problems": problem_results,
                 "contest-solved": contest_solved,
                 "upsolved": upsolved,
-                "total-solved": contest_solved + upsolved,
+                "total-solved": total_solved,
                 "contest-rank": archived_team["rank"] if archived_team else None,
             }
         )

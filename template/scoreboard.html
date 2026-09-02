@@ -220,6 +220,7 @@
 
             <th>Solved</th>
             <th>Penalty</th>
+            <th>Dirt</th>
         </tr>
     </thead>
 
@@ -289,6 +290,14 @@
 
             <td>
                 {{ team.penalty }}
+            </td>
+
+            <td>
+                {% if team.dirt is none %}
+                    -
+                {% else %}
+                    {{ team.dirt }}%
+                {% endif %}
             </td>
 
         </tr>

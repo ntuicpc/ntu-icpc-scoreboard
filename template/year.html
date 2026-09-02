@@ -263,6 +263,8 @@
                     <th class="team">Team</th>
                     {% if mode == "rating" %}
                         <th>Rating</th>
+                        <th>Solved</th>
+                        <th>Dirt</th>
                     {% else %}
                         <th>🥇</th>
                         <th>🥈</th>
@@ -284,6 +286,14 @@
                             <td>
                                 {% if team.average_rating is not none %}
                                     <strong>{{ "%.2f"|format(team.average_rating) }}</strong>
+                                {% else %}
+                                    -
+                                {% endif %}
+                            </td>
+                            <td> <strong>{{ "%.2f"|format(team.average_solved) }}</strong></td>
+                            <td>
+                                {% if team.average_dirt is not none %}
+                                    <strong>{{ "%.2f"|format(team.average_dirt) }}%</strong>
                                 {% else %}
                                     -
                                 {% endif %}
