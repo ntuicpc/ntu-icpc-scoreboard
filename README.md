@@ -46,6 +46,38 @@ The fields have the following meanings:
 - `codeforces-usernames`: the Codeforces handles of the team's members, used
   to identify accepted submissions when building a Codeforces upsolve scoreboard.
 
+## Homework
+
+Homework information is stored as JSON files in the `homework/` directory. Each file represents one homework assignment and may link to multiple scoreboards. For example, `homework/hw1.json` can contain:
+
+```json
+{
+    "title": "Homework 1",
+    "deadline": "2026/09/30 23:59:59",
+    "ended": false,
+    "scoreboards": [
+        {
+            "title": "Contest 1",
+            "url": "/archive/20260901"
+        },
+        {
+            "title": "Contest 2",
+            "url": "https://example.com/scoreboard"
+        }
+    ]
+}
+```
+
+The fields have the following meanings:
+
+- `title`: the homework title displayed on the home page.
+- `deadline`: the deadline in `YYYY/MM/DD HH:MM:SS` format. Deadlines use the Asia/Taipei timezone (UTC+8).
+- `ended`: set this to `false` to display the homework, or `true` to hide it.
+- `scoreboards`: a list of scoreboards included in the homework. Each entry must
+  contain a display `title` and a local or external `url`.
+
+When at least one homework has `ended` set to `false`, the home page displays an **Ongoing Homework** section. Ongoing homework is ordered from the earliest to the latest deadline, and the remaining time is calculated whenever the home page is loaded. An expired homework remains visible as `Expired` until `ended` is set to `true`. Missing or invalid deadlines are displayed as `Unknown` and sorted after valid deadlines.
+
 ## Live Scoreboard
 
 Two platforms are currently supported: Codeforces and QOJ. The tool downloads and filters the standings every 60 seconds, then displays the result at `/live`.
