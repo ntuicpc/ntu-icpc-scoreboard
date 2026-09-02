@@ -72,3 +72,47 @@ def codeforces_team_id_map(path):
     if not result:
         raise RuntimeError(f"No Codeforces team IDs found in {path}")
     return result
+
+
+def codeforces_username_map(path):
+    result = {}
+    username_owners = {}
+    for team in load_teams(path):
+        raw_usernames = team.get("codeforces-usernames")
+        if raw_usernames is None:
+            continue
+        if not isinstance(raw_usernames, list):
+            raise RuntimeError(
+                f"Invalid Codeforces usernames for team {team['teamname']!r}: "
+                "expected an array"
+            )
+
+        usernames = []
+        seen_usernames = set()
+        for raw_username in raw_usernames:
+            if not isinstance(raw_username, str) or not raw_username.strip():
+                raise RuntimeError(
+                    f"Invalid Codeforces username for team {team['teamname']!r}"
+                )
+            username = raw_username.strip()
+            normalized = username.casefold()
+            if normalized in seen_usernames:
+                raise RuntimeError(
+                    f"Duplicate Codeforces username {username!r} for team "
+                    f"{team['teamname']!r}"
+                )
+            if normalized in username_owners:
+                raise RuntimeError(
+                    f"Codeforces username {username!r} belongs to both "
+                    f"{username_owners[normalized]!r} and {team['teamname']!r}"
+                )
+            seen_usernames.add(normalized)
+            username_owners[normalized] = team["teamname"]
+            usernames.append(username)
+
+        if usernames:
+            result[team["teamname"]] = usernames
+
+    if not result:
+        raise RuntimeError(f"No Codeforces usernames found in {path}")
+    return result

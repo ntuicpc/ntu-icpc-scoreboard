@@ -3,84 +3,98 @@
         "teamname": "std_abs",
         "qoj-name": "std_abs",
         "qoj-username": "std_abs",
-        "codeforces-team-id": [108680]
+        "codeforces-team-id": [108680],
+        "codeforces-usernames": ["BurnedChicken", "syl123456", "abc864197532"]
     },
     {
         "teamname": "LionKingGrandPa",
         "qoj-name": "becaido",
         "qoj-username": "becaido",
-        "codeforces-team-id": [199104, 199562]
+        "codeforces-team-id": [199104, 199562],
+        "codeforces-usernames": ["becaido", "Darren0724", "GrandTiger1729"]
     },
     {
         "teamname": "revoNTUlet",
         "qoj-name": "ICPCC",
         "qoj-username": "ICPCC",
-        "codeforces-team-id": [115082]
+        "codeforces-team-id": [115082],
+        "codeforces-usernames": ["PCC", "pring", "prairie2022"]
     },
     {
         "teamname": "Tideology",
         "qoj-name": "Tideology (Wei Wei, Tsung-Yi Tsai, Heng Liao)",
         "qoj-username": "ucup-team7557",
-        "codeforces-team-id": [199030]
+        "codeforces-team-id": [199030],
+        "codeforces-usernames": ["iantsai0616", "hengliao", "guagua0407"]
     },
     {
         "teamname": "QwQ_GG",
         "qoj-name": "QwQ_GG",
         "qoj-username": "QwQ_GG",
-        "codeforces-team-id": [165568]
+        "codeforces-team-id": [165568],
+        "codeforces-usernames": ["qwe1rt1yuiop1", "gaga999", "willychan"]
     },
     {
         "teamname": "fruit_advantages",
         "qoj-name": "ideograph_advantage",
         "qoj-username": "ideograph_advantage",
-        "codeforces-team-id": [104370]
+        "codeforces-team-id": [104370],
+        "codeforces-usernames": ["alvingogo", "WiwiHo", "LittleCube"]
     },
     {
         "teamname": "bcc_ouo",
         "qoj-name": "bcc_ouo",
         "qoj-username": "bcc_ouo",
-        "codeforces-team-id": [198981]
+        "codeforces-team-id": [198981],
+        "codeforces-usernames": ["BaoCoder613", "CYhuang", "oTaiwan"]
     },
     {
         "teamname": "SomniorumVenator",
         "qoj-name": "SomniorumVenator",
         "qoj-username": "SomniorumVenator",
-        "codeforces-team-id": [198888]
+        "codeforces-team-id": [198888],
+        "codeforces-usernames": ["LittleOrange666", "phoenix0423", "Huskimos"]
     },
     {
         "teamname": "empty",
         "qoj-name": "ntu_empty",
         "qoj-username": "ntu_empty",
-        "codeforces-team-id": [200904]
+        "codeforces-team-id": [200904],
+        "codeforces-usernames": ["EasonAAA", "dnnnda", "kaiichen"]
     },
     {
         "teamname": "MixedBlood",
         "qoj-name": "MixedBlood",
         "qoj-username": "MixedBlood",
-        "codeforces-team-id": [198955]
+        "codeforces-team-id": [198955],
+        "codeforces-usernames": ["BrineTw", "cjtsai", "ancuber1031"]
     },
     {
         "teamname": "PCkomachi",
         "qoj-name": "PCkomachi (Yu-Jie Lin, Po-Han Wu, Yi-Chun Chiu)",
         "qoj-username": "ucup-team4478",
-        "codeforces-team-id": [131907]
+        "codeforces-team-id": [131907],
+        "codeforces-usernames": ["Fysty", "amano_hina", "PixelCat"]
     },
     {
         "teamname": "nobook",
         "qoj-name": "Tidology",
         "qoj-username": "Tidology",
-        "codeforces-team-id": [177341]
+        "codeforces-team-id": [177341],
+        "codeforces-usernames": ["PsychoPinkQ", "Pacybwoah", "owoovo"]
     },
     {
         "teamname": "NTNU_2beatdown",
         "qoj-name": "din2009siuc",
         "qoj-username": "din2009siuc",
-        "codeforces-team-id": [195765]
+        "codeforces-team-id": [195765],
+        "codeforces-usernames": ["din2009siuc", "CSQ31", "alphabe"]
     },
     {
         "teamname": "5_hours_of_WA_randomly_interrupted_by_AC",
         "qoj-name": "hypersoweak",
         "qoj-username": "hypersoweak",
-        "codeforces-team-id": [198923]
+        "codeforces-team-id": [198923],
+        "codeforces-usernames": ["dj4zo6u.6", "illumeow", "hypersoweak"]
     }
 ]

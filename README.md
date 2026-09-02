@@ -32,7 +32,8 @@ Team information must be stored in `teams/teams.json`. The following is an examp
     "teamname": "std_abs",
     "qoj-name": "std_abs",
     "qoj-username": "std_abs",
-    "codeforces-team-id": [108680]
+    "codeforces-team-id": [108680],
+    "codeforces-usernames": ["member1", "member2", "member3"]
 }
 ```
 
@@ -42,6 +43,8 @@ The fields have the following meanings:
 - `qoj-name`: the team's display name on QOJ.
 - `qoj-username`: the team's QOJ username.
 - `codeforces-team-id`: the team's Codeforces team ID. Multiple team IDs are supported.
+- `codeforces-usernames`: the Codeforces handles of the team's members, used
+  to identify accepted submissions when building a Codeforces upsolve scoreboard.
 
 ## Live Scoreboard
 
@@ -98,7 +101,7 @@ python tools/build-rating.py <archive_id>
 
 ### Build an Upsolve Scoreboard
 
-This feature currently supports QOJ archives only.
+This feature supports QOJ and Codeforces archives.
 
 QOJ user profile pages cannot be downloaded easily by a crawler, so each profile must be saved manually in the `teams/` directory. The filename must be `<qoj_username>.html`, for example `std_abs.html`.
 
@@ -108,4 +111,10 @@ After saving all profile pages, run:
 
 ```bash
 python tools/build-upsolve.py <archive_id>
+```
+
+For Codeforces archives, first open the contest standings and enable `show unofficial`, then save the complete page as an HTML file. The tool checks the handles listed in `codeforces-usernames` against that saved standings:
+
+```bash
+python tools/build-upsolve.py <archive_id> <scoreboard_html>
 ```

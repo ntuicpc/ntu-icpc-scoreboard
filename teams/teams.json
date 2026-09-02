@@ -1,68 +1,79 @@
 [
     {
         "teamname": "nobook",
-        "qoj-name": "",
-        "qoj-username": "",
-        "codeforces-team-id": [177341]
+        "qoj-name": "Tidology",
+        "qoj-username": "Tidology",
+        "codeforces-team-id": [177341],
+        "codeforces-usernames": ["PsychoPinkQ", "Pacybwoah", "owoovo"]
     },
     {
         "teamname": "YajuKingFlag",
-        "qoj-name": "",
-        "qoj-username": "",
-        "codeforces-team-id": [231943]
+        "qoj-name": "YajuKingFlag",
+        "qoj-username": "YajuKingFlag",
+        "codeforces-team-id": [231943],
+        "codeforces-usernames": ["becaido", "phoenix0423", "GrandTiger1729"]
     },
     {
         "teamname": "Tideology",
-        "qoj-name": "",
-        "qoj-username": "",
-        "codeforces-team-id": [199030]
+        "qoj-name": "Tideology",
+        "qoj-username": "Tideology",
+        "codeforces-team-id": [199030],
+        "codeforces-usernames": ["iantsai0616", "hengliao", "guagua0407"]
     },
     {
         "teamname": "QwQ_AA",
-        "qoj-name": "",
-        "qoj-username": "",
-        "codeforces-team-id": [165568]
+        "qoj-name": "QwQ_GG",
+        "qoj-username": "QwQ_GG",
+        "codeforces-team-id": [165568],
+        "codeforces-usernames": ["qwe1rt1yuiop1", "gaga999", "willychan"]
     },
     {
         "teamname": "revoNTUlet",
-        "qoj-name": "",
-        "qoj-username": "",
-        "codeforces-team-id": [115082]
+        "qoj-name": "ICPCC",
+        "qoj-username": "ICPCC",
+        "codeforces-team-id": [115082],
+        "codeforces-usernames": ["PCC", "pring", "prairie2022"]
     },
     {
         "teamname": "theseus_advantage",
-        "qoj-name": "",
-        "qoj-username": "",
-        "codeforces-team-id": [230054]
+        "qoj-name": "theseus_advantage",
+        "qoj-username": "theseus_advantage",
+        "codeforces-team-id": [230054],
+        "codeforces-usernames": ["alvingogo", "amano_hina", "PixelCat"]
     },
     {
         "teamname": "MangoToast",
-        "qoj-name": "",
-        "qoj-username": "",
-        "codeforces-team-id": [232924]
+        "qoj-name": "MangoToast",
+        "qoj-username": "MangoToast",
+        "codeforces-team-id": [232924],
+        "codeforces-usernames": ["alicesnorlax", "hsuanxs111", "yohanwang"]
     },
     {
         "teamname": "boss_ez",
-        "qoj-name": "",
-        "qoj-username": "",
-        "codeforces-team-id": [232846]
+        "qoj-name": "boss_ez",
+        "qoj-username": "boss_ez",
+        "codeforces-team-id": [232846],
+        "codeforces-usernames": ["fatman87878", "boss_zz", "cot7302"]
     },
     {
         "teamname": "Chromatic Trinity",
-        "qoj-name": "",
-        "qoj-username": "",
-        "codeforces-team-id": [232962]
+        "qoj-name": "Retej",
+        "qoj-username": "Retej",
+        "codeforces-team-id": [232962],
+        "codeforces-usernames": ["Retej", "janelin0104", "spacedog010"]
     },
     {
         "teamname": "NotAfraidOfTroubleIs4",
-        "qoj-name": "",
-        "qoj-username": "",
-        "codeforces-team-id": [232949]
+        "qoj-name": "Tidelogy",
+        "qoj-username": "Tidelogy",
+        "codeforces-team-id": [232949],
+        "codeforces-usernames": ["kaiichen", "b14902066", "Chaoray"]
     },
     {
         "teamname": "Leafy_Green",
         "qoj-name": "",
         "qoj-username": "",
-        "codeforces-team-id": [231942]
+        "codeforces-team-id": [231942],
+        "codeforces-usernames": ["huangallen", "koukirocks", "leolin0214"]
     }
 ]

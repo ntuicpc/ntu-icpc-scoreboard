@@ -1,0 +1,699 @@
+{
+    "problems": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+    ],
+    "teams": [
+        {
+            "rank": 1,
+            "name": "boss_ez",
+            "problems": {
+                "A": {
+                    "problem-id": 15486,
+                    "url": "https://qoj.ac/contest/2684/problem/15486",
+                    "status": "contest-solved"
+                },
+                "B": {
+                    "problem-id": 15487,
+                    "url": "https://qoj.ac/contest/2684/problem/15487",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 15488,
+                    "url": "https://qoj.ac/contest/2684/problem/15488",
+                    "status": "contest-solved"
+                },
+                "D": {
+                    "problem-id": 15489,
+                    "url": "https://qoj.ac/contest/2684/problem/15489",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 15490,
+                    "url": "https://qoj.ac/contest/2684/problem/15490",
+                    "status": "upsolved"
+                },
+                "F": {
+                    "problem-id": 15491,
+                    "url": "https://qoj.ac/contest/2684/problem/15491",
+                    "status": "contest-solved"
+                },
+                "G": {
+                    "problem-id": 15492,
+                    "url": "https://qoj.ac/contest/2684/problem/15492",
+                    "status": "unsolved"
+                },
+                "H": {
+                    "problem-id": 15493,
+                    "url": "https://qoj.ac/contest/2684/problem/15493",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 15494,
+                    "url": "https://qoj.ac/contest/2684/problem/15494",
+                    "status": "unsolved"
+                },
+                "J": {
+                    "problem-id": 15495,
+                    "url": "https://qoj.ac/contest/2684/problem/15495",
+                    "status": "contest-solved"
+                },
+                "K": {
+                    "problem-id": 15496,
+                    "url": "https://qoj.ac/contest/2684/problem/15496",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 15497,
+                    "url": "https://qoj.ac/contest/2684/problem/15497",
+                    "status": "contest-solved"
+                },
+                "M": {
+                    "problem-id": 15498,
+                    "url": "https://qoj.ac/contest/2684/problem/15498",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 8,
+            "upsolved": 1,
+            "total-solved": 9,
+            "contest-rank": 3
+        },
+        {
+            "rank": 2,
+            "name": "nobook",
+            "problems": {
+                "A": {
+                    "problem-id": 15486,
+                    "url": "https://qoj.ac/contest/2684/problem/15486",
+                    "status": "contest-solved"
+                },
+                "B": {
+                    "problem-id": 15487,
+                    "url": "https://qoj.ac/contest/2684/problem/15487",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 15488,
+                    "url": "https://qoj.ac/contest/2684/problem/15488",
+                    "status": "contest-solved"
+                },
+                "D": {
+                    "problem-id": 15489,
+                    "url": "https://qoj.ac/contest/2684/problem/15489",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 15490,
+                    "url": "https://qoj.ac/contest/2684/problem/15490",
+                    "status": "contest-solved"
+                },
+                "F": {
+                    "problem-id": 15491,
+                    "url": "https://qoj.ac/contest/2684/problem/15491",
+                    "status": "upsolved"
+                },
+                "G": {
+                    "problem-id": 15492,
+                    "url": "https://qoj.ac/contest/2684/problem/15492",
+                    "status": "unsolved"
+                },
+                "H": {
+                    "problem-id": 15493,
+                    "url": "https://qoj.ac/contest/2684/problem/15493",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 15494,
+                    "url": "https://qoj.ac/contest/2684/problem/15494",
+                    "status": "unsolved"
+                },
+                "J": {
+                    "problem-id": 15495,
+                    "url": "https://qoj.ac/contest/2684/problem/15495",
+                    "status": "contest-solved"
+                },
+                "K": {
+                    "problem-id": 15496,
+                    "url": "https://qoj.ac/contest/2684/problem/15496",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 15497,
+                    "url": "https://qoj.ac/contest/2684/problem/15497",
+                    "status": "contest-solved"
+                },
+                "M": {
+                    "problem-id": 15498,
+                    "url": "https://qoj.ac/contest/2684/problem/15498",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 8,
+            "upsolved": 1,
+            "total-solved": 9,
+            "contest-rank": 3
+        },
+        {
+            "rank": 3,
+            "name": "YajuKingFlag",
+            "problems": {
+                "A": {
+                    "problem-id": 15486,
+                    "url": "https://qoj.ac/contest/2684/problem/15486",
+                    "status": "contest-solved"
+                },
+                "B": {
+                    "problem-id": 15487,
+                    "url": "https://qoj.ac/contest/2684/problem/15487",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 15488,
+                    "url": "https://qoj.ac/contest/2684/problem/15488",
+                    "status": "contest-solved"
+                },
+                "D": {
+                    "problem-id": 15489,
+                    "url": "https://qoj.ac/contest/2684/problem/15489",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 15490,
+                    "url": "https://qoj.ac/contest/2684/problem/15490",
+                    "status": "contest-solved"
+                },
+                "F": {
+                    "problem-id": 15491,
+                    "url": "https://qoj.ac/contest/2684/problem/15491",
+                    "status": "contest-solved"
+                },
+                "G": {
+                    "problem-id": 15492,
+                    "url": "https://qoj.ac/contest/2684/problem/15492",
+                    "status": "unsolved"
+                },
+                "H": {
+                    "problem-id": 15493,
+                    "url": "https://qoj.ac/contest/2684/problem/15493",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 15494,
+                    "url": "https://qoj.ac/contest/2684/problem/15494",
+                    "status": "unsolved"
+                },
+                "J": {
+                    "problem-id": 15495,
+                    "url": "https://qoj.ac/contest/2684/problem/15495",
+                    "status": "contest-solved"
+                },
+                "K": {
+                    "problem-id": 15496,
+                    "url": "https://qoj.ac/contest/2684/problem/15496",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 15497,
+                    "url": "https://qoj.ac/contest/2684/problem/15497",
+                    "status": "contest-solved"
+                },
+                "M": {
+                    "problem-id": 15498,
+                    "url": "https://qoj.ac/contest/2684/problem/15498",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 9,
+            "upsolved": 0,
+            "total-solved": 9,
+            "contest-rank": 1
+        },
+        {
+            "rank": 4,
+            "name": "theseus_advantage",
+            "problems": {
+                "A": {
+                    "problem-id": 15486,
+                    "url": "https://qoj.ac/contest/2684/problem/15486",
+                    "status": "contest-solved"
+                },
+                "B": {
+                    "problem-id": 15487,
+                    "url": "https://qoj.ac/contest/2684/problem/15487",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 15488,
+                    "url": "https://qoj.ac/contest/2684/problem/15488",
+                    "status": "contest-solved"
+                },
+                "D": {
+                    "problem-id": 15489,
+                    "url": "https://qoj.ac/contest/2684/problem/15489",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 15490,
+                    "url": "https://qoj.ac/contest/2684/problem/15490",
+                    "status": "unsolved"
+                },
+                "F": {
+                    "problem-id": 15491,
+                    "url": "https://qoj.ac/contest/2684/problem/15491",
+                    "status": "contest-solved"
+                },
+                "G": {
+                    "problem-id": 15492,
+                    "url": "https://qoj.ac/contest/2684/problem/15492",
+                    "status": "unsolved"
+                },
+                "H": {
+                    "problem-id": 15493,
+                    "url": "https://qoj.ac/contest/2684/problem/15493",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 15494,
+                    "url": "https://qoj.ac/contest/2684/problem/15494",
+                    "status": "unsolved"
+                },
+                "J": {
+                    "problem-id": 15495,
+                    "url": "https://qoj.ac/contest/2684/problem/15495",
+                    "status": "contest-solved"
+                },
+                "K": {
+                    "problem-id": 15496,
+                    "url": "https://qoj.ac/contest/2684/problem/15496",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 15497,
+                    "url": "https://qoj.ac/contest/2684/problem/15497",
+                    "status": "contest-solved"
+                },
+                "M": {
+                    "problem-id": 15498,
+                    "url": "https://qoj.ac/contest/2684/problem/15498",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 8,
+            "upsolved": 0,
+            "total-solved": 8,
+            "contest-rank": 2
+        },
+        {
+            "rank": 5,
+            "name": "QwQ_AA",
+            "problems": {
+                "A": {
+                    "problem-id": 15486,
+                    "url": "https://qoj.ac/contest/2684/problem/15486",
+                    "status": "contest-solved"
+                },
+                "B": {
+                    "problem-id": 15487,
+                    "url": "https://qoj.ac/contest/2684/problem/15487",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 15488,
+                    "url": "https://qoj.ac/contest/2684/problem/15488",
+                    "status": "upsolved"
+                },
+                "D": {
+                    "problem-id": 15489,
+                    "url": "https://qoj.ac/contest/2684/problem/15489",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 15490,
+                    "url": "https://qoj.ac/contest/2684/problem/15490",
+                    "status": "unsolved"
+                },
+                "F": {
+                    "problem-id": 15491,
+                    "url": "https://qoj.ac/contest/2684/problem/15491",
+                    "status": "unsolved"
+                },
+                "G": {
+                    "problem-id": 15492,
+                    "url": "https://qoj.ac/contest/2684/problem/15492",
+                    "status": "unsolved"
+                },
+                "H": {
+                    "problem-id": 15493,
+                    "url": "https://qoj.ac/contest/2684/problem/15493",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 15494,
+                    "url": "https://qoj.ac/contest/2684/problem/15494",
+                    "status": "unsolved"
+                },
+                "J": {
+                    "problem-id": 15495,
+                    "url": "https://qoj.ac/contest/2684/problem/15495",
+                    "status": "contest-solved"
+                },
+                "K": {
+                    "problem-id": 15496,
+                    "url": "https://qoj.ac/contest/2684/problem/15496",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 15497,
+                    "url": "https://qoj.ac/contest/2684/problem/15497",
+                    "status": "contest-solved"
+                },
+                "M": {
+                    "problem-id": 15498,
+                    "url": "https://qoj.ac/contest/2684/problem/15498",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 6,
+            "upsolved": 1,
+            "total-solved": 7,
+            "contest-rank": 6
+        },
+        {
+            "rank": 6,
+            "name": "Tideology",
+            "problems": {
+                "A": {
+                    "problem-id": 15486,
+                    "url": "https://qoj.ac/contest/2684/problem/15486",
+                    "status": "contest-solved"
+                },
+                "B": {
+                    "problem-id": 15487,
+                    "url": "https://qoj.ac/contest/2684/problem/15487",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 15488,
+                    "url": "https://qoj.ac/contest/2684/problem/15488",
+                    "status": "unsolved"
+                },
+                "D": {
+                    "problem-id": 15489,
+                    "url": "https://qoj.ac/contest/2684/problem/15489",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 15490,
+                    "url": "https://qoj.ac/contest/2684/problem/15490",
+                    "status": "unsolved"
+                },
+                "F": {
+                    "problem-id": 15491,
+                    "url": "https://qoj.ac/contest/2684/problem/15491",
+                    "status": "contest-solved"
+                },
+                "G": {
+                    "problem-id": 15492,
+                    "url": "https://qoj.ac/contest/2684/problem/15492",
+                    "status": "unsolved"
+                },
+                "H": {
+                    "problem-id": 15493,
+                    "url": "https://qoj.ac/contest/2684/problem/15493",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 15494,
+                    "url": "https://qoj.ac/contest/2684/problem/15494",
+                    "status": "unsolved"
+                },
+                "J": {
+                    "problem-id": 15495,
+                    "url": "https://qoj.ac/contest/2684/problem/15495",
+                    "status": "contest-solved"
+                },
+                "K": {
+                    "problem-id": 15496,
+                    "url": "https://qoj.ac/contest/2684/problem/15496",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 15497,
+                    "url": "https://qoj.ac/contest/2684/problem/15497",
+                    "status": "contest-solved"
+                },
+                "M": {
+                    "problem-id": 15498,
+                    "url": "https://qoj.ac/contest/2684/problem/15498",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 7,
+            "upsolved": 0,
+            "total-solved": 7,
+            "contest-rank": 5
+        },
+        {
+            "rank": 7,
+            "name": "NotAfraidOfTroubleIs4",
+            "problems": {
+                "A": {
+                    "problem-id": 15486,
+                    "url": "https://qoj.ac/contest/2684/problem/15486",
+                    "status": "contest-solved"
+                },
+                "B": {
+                    "problem-id": 15487,
+                    "url": "https://qoj.ac/contest/2684/problem/15487",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 15488,
+                    "url": "https://qoj.ac/contest/2684/problem/15488",
+                    "status": "unsolved"
+                },
+                "D": {
+                    "problem-id": 15489,
+                    "url": "https://qoj.ac/contest/2684/problem/15489",
+                    "status": "contest-solved"
+                },
+                "E": {
+                    "problem-id": 15490,
+                    "url": "https://qoj.ac/contest/2684/problem/15490",
+                    "status": "unsolved"
+                },
+                "F": {
+                    "problem-id": 15491,
+                    "url": "https://qoj.ac/contest/2684/problem/15491",
+                    "status": "unsolved"
+                },
+                "G": {
+                    "problem-id": 15492,
+                    "url": "https://qoj.ac/contest/2684/problem/15492",
+                    "status": "unsolved"
+                },
+                "H": {
+                    "problem-id": 15493,
+                    "url": "https://qoj.ac/contest/2684/problem/15493",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 15494,
+                    "url": "https://qoj.ac/contest/2684/problem/15494",
+                    "status": "unsolved"
+                },
+                "J": {
+                    "problem-id": 15495,
+                    "url": "https://qoj.ac/contest/2684/problem/15495",
+                    "status": "unsolved"
+                },
+                "K": {
+                    "problem-id": 15496,
+                    "url": "https://qoj.ac/contest/2684/problem/15496",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 15497,
+                    "url": "https://qoj.ac/contest/2684/problem/15497",
+                    "status": "contest-solved"
+                },
+                "M": {
+                    "problem-id": 15498,
+                    "url": "https://qoj.ac/contest/2684/problem/15498",
+                    "status": "contest-solved"
+                }
+            },
+            "contest-solved": 5,
+            "upsolved": 0,
+            "total-solved": 5,
+            "contest-rank": 7
+        },
+        {
+            "rank": 8,
+            "name": "MangoToast",
+            "problems": {
+                "A": {
+                    "problem-id": 15486,
+                    "url": "https://qoj.ac/contest/2684/problem/15486",
+                    "status": "contest-solved"
+                },
+                "B": {
+                    "problem-id": 15487,
+                    "url": "https://qoj.ac/contest/2684/problem/15487",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 15488,
+                    "url": "https://qoj.ac/contest/2684/problem/15488",
+                    "status": "unsolved"
+                },
+                "D": {
+                    "problem-id": 15489,
+                    "url": "https://qoj.ac/contest/2684/problem/15489",
+                    "status": "unsolved"
+                },
+                "E": {
+                    "problem-id": 15490,
+                    "url": "https://qoj.ac/contest/2684/problem/15490",
+                    "status": "unsolved"
+                },
+                "F": {
+                    "problem-id": 15491,
+                    "url": "https://qoj.ac/contest/2684/problem/15491",
+                    "status": "unsolved"
+                },
+                "G": {
+                    "problem-id": 15492,
+                    "url": "https://qoj.ac/contest/2684/problem/15492",
+                    "status": "unsolved"
+                },
+                "H": {
+                    "problem-id": 15493,
+                    "url": "https://qoj.ac/contest/2684/problem/15493",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 15494,
+                    "url": "https://qoj.ac/contest/2684/problem/15494",
+                    "status": "unsolved"
+                },
+                "J": {
+                    "problem-id": 15495,
+                    "url": "https://qoj.ac/contest/2684/problem/15495",
+                    "status": "unsolved"
+                },
+                "K": {
+                    "problem-id": 15496,
+                    "url": "https://qoj.ac/contest/2684/problem/15496",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 15497,
+                    "url": "https://qoj.ac/contest/2684/problem/15497",
+                    "status": "contest-solved"
+                },
+                "M": {
+                    "problem-id": 15498,
+                    "url": "https://qoj.ac/contest/2684/problem/15498",
+                    "status": "unsolved"
+                }
+            },
+            "contest-solved": 3,
+            "upsolved": 0,
+            "total-solved": 3,
+            "contest-rank": 8
+        },
+        {
+            "rank": 9,
+            "name": "Chromatic Trinity",
+            "problems": {
+                "A": {
+                    "problem-id": 15486,
+                    "url": "https://qoj.ac/contest/2684/problem/15486",
+                    "status": "contest-solved"
+                },
+                "B": {
+                    "problem-id": 15487,
+                    "url": "https://qoj.ac/contest/2684/problem/15487",
+                    "status": "unsolved"
+                },
+                "C": {
+                    "problem-id": 15488,
+                    "url": "https://qoj.ac/contest/2684/problem/15488",
+                    "status": "unsolved"
+                },
+                "D": {
+                    "problem-id": 15489,
+                    "url": "https://qoj.ac/contest/2684/problem/15489",
+                    "status": "unsolved"
+                },
+                "E": {
+                    "problem-id": 15490,
+                    "url": "https://qoj.ac/contest/2684/problem/15490",
+                    "status": "unsolved"
+                },
+                "F": {
+                    "problem-id": 15491,
+                    "url": "https://qoj.ac/contest/2684/problem/15491",
+                    "status": "unsolved"
+                },
+                "G": {
+                    "problem-id": 15492,
+                    "url": "https://qoj.ac/contest/2684/problem/15492",
+                    "status": "unsolved"
+                },
+                "H": {
+                    "problem-id": 15493,
+                    "url": "https://qoj.ac/contest/2684/problem/15493",
+                    "status": "contest-solved"
+                },
+                "I": {
+                    "problem-id": 15494,
+                    "url": "https://qoj.ac/contest/2684/problem/15494",
+                    "status": "unsolved"
+                },
+                "J": {
+                    "problem-id": 15495,
+                    "url": "https://qoj.ac/contest/2684/problem/15495",
+                    "status": "unsolved"
+                },
+                "K": {
+                    "problem-id": 15496,
+                    "url": "https://qoj.ac/contest/2684/problem/15496",
+                    "status": "unsolved"
+                },
+                "L": {
+                    "problem-id": 15497,
+                    "url": "https://qoj.ac/contest/2684/problem/15497",
+                    "status": "contest-solved"
+                },
+                "M": {
+                    "problem-id": 15498,
+                    "url": "https://qoj.ac/contest/2684/problem/15498",
+                    "status": "unsolved"
+                }
+            },
+            "contest-solved": 3,
+            "upsolved": 0,
+            "total-solved": 3,
+            "contest-rank": 9
+        }
+    ],
+    "update-time": "2026/09/02 13:00:26",
+    "contest-id": 2684,
+    "contest-url": "https://qoj.ac/contest/2684",
+    "contest-type": "qoj",
+    "title": "Petrozavodsk Summer 2025 Day 7 - Upsolve"
+}
