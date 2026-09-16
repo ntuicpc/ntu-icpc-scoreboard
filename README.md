@@ -150,3 +150,24 @@ For Codeforces archives, first open the contest standings and enable `show unoff
 ```bash
 python tools/build-upsolve.py <archive_id> <scoreboard_html>
 ```
+
+To open one QOJ account's submission pages for an inclusive range of problem
+IDs, run:
+
+```bash
+python tools/open-team-submissions.py <qoj_username> <problem_id_l> <problem_id_r>
+```
+
+Use `--dry-run` to list the URLs without opening browser tabs, or `--delay`
+to change the number of seconds between tabs.
+
+To correct one team's result in an existing QOJ upsolve scoreboard and
+recalculate the rankings, run:
+
+```bash
+python tools/update-upsolve.py <archive_id> <team_name> <problem_id>
+```
+
+Each run toggles `unsolved` to `upsolved` or `upsolved` to `unsolved`.
+Quote team names that contain spaces. Problems already marked
+`contest-solved` are left unchanged.
