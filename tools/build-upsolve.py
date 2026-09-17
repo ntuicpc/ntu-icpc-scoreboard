@@ -108,14 +108,14 @@ def parse_codeforces_accepted_by_username(html):
 
 
 def build_qoj_accepted_by_team(scoreboard):
-    teamnames = [team["name"] for team in scoreboard["teams"]]
     team_accounts = require_team_accounts(
-        qoj_username_map(TEAMS_PATH), teamnames, "qoj-username"
+        qoj_username_map(TEAMS_PATH, require_all=True),
+        [team["name"] for team in scoreboard["teams"]],
+        "qoj-username",
     )
     accepted_by_username = {}
     accepted_by_team = {}
-    for teamname in teamnames:
-        username = team_accounts[teamname]
+    for teamname, username in team_accounts.items():
         if username not in accepted_by_username:
             accepted_by_username[username] = parse_accepted_problems(
                 TEAMS_DIR / f"{username}.html"
@@ -192,13 +192,9 @@ def build_upsolve(archive_path, codeforces_html_path=None):
         )
 
     archived_teams = {team["name"]: team for team in scoreboard["teams"]}
-    if contest_type == "codeforces":
-        teamnames = accepted_by_team
-    else:
-        teamnames = archived_teams
 
     upsolve_teams = []
-    for teamname in teamnames:
+    for teamname in accepted_by_team:
         archived_team = archived_teams.get(teamname)
         accepted = accepted_by_team[teamname]
         problem_results = {}

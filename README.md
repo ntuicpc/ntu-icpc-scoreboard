@@ -135,7 +135,7 @@ python tools/build-rating.py <archive_id>
 
 This feature supports QOJ and Codeforces archives.
 
-QOJ user profile pages cannot be downloaded easily by a crawler, so each profile must be saved manually in the `teams/` directory. The filename must be `<qoj_username>.html`, for example `std_abs.html`.
+QOJ user profile pages cannot be downloaded easily by a crawler, so each profile must be saved manually in the `teams/` directory. The filename must be `<qoj_username>.html`, for example `std_abs.html`. This includes teams in `teams.json` that did not participate in the archived contest; they appear on the upsolve scoreboard if they solved at least one problem.
 
 Use `tools/open-team-profiles.py` to open every team's QOJ profile in your browser. Then run the JavaScript from `tools/download-user-page.js` in the browser's developer console to download each page as an HTML file.
 
