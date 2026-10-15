@@ -52,7 +52,15 @@ def parse_mark(mark):
     return "unattempted", 0
 
 
-def parse_scoreboard(html, title, team_filter, frozen=False, update_time=None):
+def parse_scoreboard(
+    html,
+    title,
+    team_filter,
+    frozen=False,
+    update_time=None,
+    unofficial_teamnames=None,
+    contest_elapsed_minutes=None,
+):
     soup = BeautifulSoup(html, "html.parser")
     contest_link = soup.find("a", href=re.compile(r"/contest/\d+"))
     if contest_link is None:
@@ -80,6 +88,8 @@ def parse_scoreboard(html, title, team_filter, frozen=False, update_time=None):
         raise RuntimeError("Cannot find Solved column") from error
 
     problems = [headers[index].splitlines()[0] for index in range(2, solved_index)]
+    include_unofficial_metadata = unofficial_teamnames is not None
+    unofficial_teamnames = set(unofficial_teamnames or ())
     teams = []
     for row in rows[1:]:
         cells = row.find_all("td", recursive=False)
@@ -92,16 +102,37 @@ def parse_scoreboard(html, title, team_filter, frozen=False, update_time=None):
         if teamname is None:
             continue
 
+        is_unofficial = teamname in unofficial_teamnames
         team = {
             "rank": int(rank_text), "name": teamname, "problems": {},
             "solved": 0, "penalty": 0,
         }
+        if include_unofficial_metadata:
+            team["unofficial"] = is_unofficial
         for column, problem in enumerate(problems, start=2):
             parts = list(cells[column].stripped_strings)
             mark = parts[0] if parts else "-"
             submit_time = parts[1] if len(parts) >= 2 else None
             status, wrong_attempts = parse_mark(mark)
-            if frozen and submit_time is not None and time_to_minutes(submit_time) >= FREEZE_TIME_MINUTES:
+            if (
+                is_unofficial
+                and contest_elapsed_minutes is not None
+                and status == "accepted"
+                and submit_time is not None
+                and time_to_minutes(submit_time) > contest_elapsed_minutes
+            ):
+                status = "unattempted"
+                wrong_attempts = 0
+                submit_time = None
+            elif (
+                is_unofficial
+                and contest_elapsed_minutes is not None
+                and status == "attempted"
+            ):
+                status = "unattempted"
+                wrong_attempts = 0
+                submit_time = None
+            elif frozen and submit_time is not None and time_to_minutes(submit_time) >= FREEZE_TIME_MINUTES:
                 if status == "accepted":
                     wrong_attempts += 1
                 status = "frozen"

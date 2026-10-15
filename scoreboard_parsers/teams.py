@@ -121,24 +121,6 @@ def codeforces_team_id_map(path):
     return _codeforces_team_id_map(load_teams(path), path)
 
 
-def codeforces_live_team_filter(official_path, unofficial_path):
-    official_teams, unofficial_teams = load_live_teams(
-        official_path, unofficial_path
-    )
-    result = _codeforces_team_id_map(official_teams, official_path)
-    unofficial_result = _codeforces_team_id_map(
-        unofficial_teams, unofficial_path, require_ids=False
-    )
-    duplicate_ids = sorted(set(result).intersection(unofficial_result))
-    if duplicate_ids:
-        raise RuntimeError(
-            "Duplicate Codeforces team IDs across official and unofficial teams: "
-            + ", ".join(map(str, duplicate_ids))
-        )
-    result.update(unofficial_result)
-    return result, {team["teamname"] for team in unofficial_teams}
-
-
 def codeforces_username_map(path):
     result = {}
     username_owners = {}

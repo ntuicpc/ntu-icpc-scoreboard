@@ -22,9 +22,20 @@ from state import LIVE_SCOREBOARD_TITLE
 def main():
     parser = argparse.ArgumentParser(description="Filter the downloaded QOJ scoreboard.")
     parser.add_argument("frozen", type=int, choices=(0, 1), help="apply freeze (0 or 1)")
+    parser.add_argument(
+        "contest_elapsed_minutes",
+        type=int,
+        help="elapsed time of the current contest in minutes",
+    )
     args = parser.parse_args()
+    if args.contest_elapsed_minutes < 0:
+        parser.error("contest_elapsed_minutes cannot be negative")
 
-    print(f"[QOJ] Filtering live scoreboard (frozen={args.frozen})...", flush=True)
+    print(
+        f"[QOJ] Filtering live scoreboard (frozen={args.frozen}, "
+        f"elapsed={args.contest_elapsed_minutes}m)...",
+        flush=True,
+    )
     team_filter, unofficial_teamnames = qoj_live_team_filter(
         TEAMS_PATH, UNOFFICIAL_TEAMS_PATH
     )
@@ -34,9 +45,9 @@ def main():
         team_filter,
         frozen=bool(args.frozen),
         update_time=TIMESTAMP_PATH.read_text(encoding="utf-8").strip(),
+        unofficial_teamnames=unofficial_teamnames,
+        contest_elapsed_minutes=args.contest_elapsed_minutes,
     )
-    for team in scoreboard["teams"]:
-        team["unofficial"] = team["name"] in unofficial_teamnames
     write_json_atomic(SCOREBOARD_PATH, scoreboard)
     print(
         f"[QOJ] Live scoreboard updated: {len(scoreboard['problems'])} problems, "

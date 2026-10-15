@@ -46,12 +46,17 @@ The fields have the following meanings:
 - `codeforces-usernames`: the Codeforces handles of the team's members, used
   to identify accepted submissions when building a Codeforces upsolve scoreboard.
 
-Unofficial teams can be stored in `teams/unofficial.json` using the same format.
-They are included in the live scoreboard and marked with a star whose tooltip
-reads **Unofficial**. They are ranked normally together with official teams on
-the live scoreboard. Unofficial teams are removed when archiving the live
-scoreboard. Ranks and first solves are recalculated using official teams only
-before the archive is written. Direct QOJ and Codeforces archives, ratings,
+Unofficial QOJ teams can be stored in `teams/unofficial.json` using the same
+format. They are included in the QOJ live scoreboard and marked with a star
+whose tooltip reads **Unofficial**. They are ranked normally together with
+official teams. Their accepted solutions are replayed against the elapsed time
+of the current contest, so an accepted solution is not revealed until the
+current contest reaches the same elapsed minute. QOJ wrong-attempt times cannot
+be reconstructed, so wrong attempts are hidden until the corresponding accepted
+solution is revealed; wrong attempts on problems without an accepted solution
+are not shown. Unofficial teams are removed when archiving the live scoreboard.
+Ranks and first solves are recalculated using official teams only before the
+archive is written. The Codeforces live scoreboard, direct archives, ratings,
 yearly statistics, and upsolve scoreboards only use official teams from
 `teams/teams.json`.
 

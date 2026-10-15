@@ -50,6 +50,13 @@ def codeforces_url(value):
     return value
 
 
+def contest_elapsed_minutes(current_time, contest_start_time):
+    return max(
+        0,
+        int((current_time - contest_start_time).total_seconds() // 60),
+    )
+
+
 def parse_args():
     parser = argparse.ArgumentParser(
         description="Start the QOJ or Codeforces Live scoreboard updater."
@@ -115,10 +122,11 @@ def create_qoj_problem_map(contest_id, id_l, id_r):
 def run_qoj_update(url, contest_start_time):
     current_time = datetime.now().astimezone()
     frozen = int(current_time <= contest_start_time + QOJ_FROZEN_DURATION)
+    elapsed_minutes = contest_elapsed_minutes(current_time, contest_start_time)
 
     print(
         f"[{current_time.isoformat(timespec='seconds')}] Updating QOJ scoreboard "
-        f"(frozen={frozen})...",
+        f"(frozen={frozen}, elapsed={elapsed_minutes}m)...",
         flush=True,
     )
     subprocess.run(
@@ -133,7 +141,12 @@ def run_qoj_update(url, contest_start_time):
         check=True,
     )
     subprocess.run(
-        [sys.executable, "filter-qoj-scoreboard.py", str(frozen)],
+        [
+            sys.executable,
+            "filter-qoj-scoreboard.py",
+            str(frozen),
+            str(elapsed_minutes),
+        ],
         cwd=LIVE_DIR,
         check=True,
     )
