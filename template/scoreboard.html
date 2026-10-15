@@ -59,6 +59,44 @@
             font-weight: bold;
         }
 
+        .unofficial-marker {
+            position: relative;
+            display: inline-block;
+            margin-right: 4px;
+            cursor: help;
+            font-size: 14px;
+            vertical-align: 0;
+        }
+
+        .unofficial-marker::after {
+            position: absolute;
+            bottom: calc(100% + 7px);
+            left: 50%;
+            z-index: 10;
+            padding: 5px 8px;
+            border-radius: 4px;
+            background: #222;
+            color: white;
+            content: attr(data-label);
+            font-size: 12px;
+            font-weight: normal;
+            opacity: 0;
+            pointer-events: none;
+            transform: translateX(-50%);
+            transition: opacity 0.15s ease;
+            white-space: nowrap;
+        }
+
+        .unofficial-marker:hover::after,
+        .unofficial-marker:focus::after {
+            opacity: 1;
+        }
+
+        .unofficial-marker:focus {
+            outline: 2px solid #555;
+            outline-offset: 2px;
+        }
+
         /* AC */
         .accepted {
             background: #b7e1cd;
@@ -235,6 +273,9 @@
             </td>
 
             <td class="team">
+                {% if show_unofficial and team.unofficial %}
+                    <span class="unofficial-marker" data-label="Unofficial" aria-label="Unofficial team" tabindex="0">⭐</span>
+                {% endif %}
                 {{ team.name }}
             </td>
 

@@ -23,10 +23,12 @@ from scoreboard_parsers.codeforces import (
 from scoreboard_parsers.codeforces import (
     parse_scoreboard as parse_codeforces_scoreboard,
 )
+from scoreboard_parsers.common import keep_official_teams
 from scoreboard_parsers.io import load_json
 from scoreboard_parsers.qoj import build_problem_map
 from scoreboard_parsers.qoj import load_team_filter as load_qoj_team_filter
 from scoreboard_parsers.qoj import parse_scoreboard as parse_qoj_scoreboard
+from scoreboard_parsers.teams import load_teams
 
 
 def existing_html(value):
@@ -116,6 +118,10 @@ def archive_live(args):
         raise RuntimeError(
             f"Invalid live contest-type {contest_type!r}; expected one of: {expected}"
         )
+    official_teamnames = {
+        team["teamname"] for team in load_teams(TEAMS_PATH)
+    }
+    keep_official_teams(scoreboard, official_teamnames)
     scoreboard["title"] = args.title
     return write_archive(
         ARCHIVE_DIR,

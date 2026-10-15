@@ -66,7 +66,9 @@ def add_dirt_percent(teams):
         )
 
 
-def render_scoreboard(html, scoreboard_path, include_dirt=False):
+def render_scoreboard(
+    html, scoreboard_path, include_dirt=False, show_unofficial=False
+):
     try:
         with scoreboard_path.open("r", encoding="utf-8") as f:
             data = json.load(f)
@@ -89,6 +91,7 @@ def render_scoreboard(html, scoreboard_path, include_dirt=False):
         title=data["title"],
         contest_url=data["contest-url"],
         problem_map=problem_map,
+        show_unofficial=show_unofficial,
     )
 
 
@@ -380,7 +383,10 @@ def scoreboard():
 
     scoreboard_path = PROJECT_DIR / "live" / "scoreboard.json"
     return render_scoreboard(
-        scoreboard_html, scoreboard_path, include_dirt=True
+        scoreboard_html,
+        scoreboard_path,
+        include_dirt=True,
+        show_unofficial=True,
     )
 
 

@@ -34,3 +34,24 @@ def sort_and_assign_ranks(teams):
             current_rank = index
             previous_result = result
         team["rank"] = current_rank
+
+
+def keep_official_teams(scoreboard, official_teamnames):
+    problems = scoreboard["problems"]
+    teams = [
+        team
+        for team in scoreboard["teams"]
+        if team.get("name") in official_teamnames
+    ]
+
+    for team in teams:
+        team.pop("unofficial", None)
+        for problem in problems:
+            result = team["problems"][problem]
+            if result.get("status") == "first-solve":
+                result["status"] = "accepted"
+
+    mark_first_solves(teams, problems)
+    sort_and_assign_ranks(teams)
+    scoreboard["teams"] = teams
+    return scoreboard

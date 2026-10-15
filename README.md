@@ -46,6 +46,15 @@ The fields have the following meanings:
 - `codeforces-usernames`: the Codeforces handles of the team's members, used
   to identify accepted submissions when building a Codeforces upsolve scoreboard.
 
+Unofficial teams can be stored in `teams/unofficial.json` using the same format.
+They are included in the live scoreboard and marked with a star whose tooltip
+reads **Unofficial**. They are ranked normally together with official teams on
+the live scoreboard. Unofficial teams are removed when archiving the live
+scoreboard. Ranks and first solves are recalculated using official teams only
+before the archive is written. Direct QOJ and Codeforces archives, ratings,
+yearly statistics, and upsolve scoreboards only use official teams from
+`teams/teams.json`.
+
 ## Homework
 
 Homework information is stored as JSON files in the `homework/` directory. Each file represents one homework assignment and may link to multiple scoreboards. For example, `homework/hw1.json` can contain:

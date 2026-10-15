@@ -24,6 +24,7 @@ RATING_PRECISION = Decimal("0.01")
 sys.path.insert(0, str(PROJECT_DIR))
 
 from archive_utils import archive_name
+from scoreboard_parsers.common import sort_and_assign_ranks
 from scoreboard_parsers.io import load_json, write_json_atomic
 
 
@@ -39,6 +40,13 @@ def build_rating(scoreboard):
     teams = scoreboard.get("teams")
     if not isinstance(teams, list) or not teams:
         raise RuntimeError("Scoreboard does not contain any teams")
+    teams = [
+        team
+        for team in teams
+        if not isinstance(team, dict) or team.get("unofficial") is not True
+    ]
+    if not teams:
+        raise RuntimeError("Scoreboard does not contain any official teams")
 
     try:
         first_solved = max(int(team["solved"]) for team in teams)
@@ -73,6 +81,8 @@ def build_rating(scoreboard):
             minimum_penalty.get(solved, penalty),
             penalty,
         )
+
+    sort_and_assign_ranks(normalized_teams)
 
     rating_teams = []
     for team in normalized_teams:
