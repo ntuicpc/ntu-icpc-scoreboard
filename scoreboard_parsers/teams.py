@@ -62,6 +62,12 @@ def qoj_live_team_filter(official_path, unofficial_path):
     official_teams, unofficial_teams = load_live_teams(
         official_path, unofficial_path
     )
+    for team in unofficial_teams:
+        if not isinstance(team.get("live"), bool):
+            raise RuntimeError(
+                f"Unofficial team {team['teamname']!r} in {unofficial_path} "
+                "must have a boolean live field"
+            )
     result = _qoj_name_map(official_teams, official_path)
     unofficial_result = _qoj_name_map(
         unofficial_teams, unofficial_path, require_names=False
@@ -73,7 +79,15 @@ def qoj_live_team_filter(official_path, unofficial_path):
             + ", ".join(duplicate_names)
         )
     result.update(unofficial_result)
-    return result, {team["teamname"] for team in unofficial_teams}
+    return (
+        result,
+        {team["teamname"] for team in unofficial_teams},
+        {
+            team["teamname"]
+            for team in unofficial_teams
+            if team["live"]
+        },
+    )
 
 
 def qoj_username_map(path, require_all=False):

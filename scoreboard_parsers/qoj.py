@@ -60,6 +60,7 @@ def parse_scoreboard(
     update_time=None,
     unofficial_teamnames=None,
     contest_elapsed_minutes=None,
+    live_unofficial_teamnames=None,
 ):
     soup = BeautifulSoup(html, "html.parser")
     contest_link = soup.find("a", href=re.compile(r"/contest/\d+"))
@@ -90,6 +91,13 @@ def parse_scoreboard(
     problems = [headers[index].splitlines()[0] for index in range(2, solved_index)]
     include_unofficial_metadata = unofficial_teamnames is not None
     unofficial_teamnames = set(unofficial_teamnames or ())
+    live_unofficial_teamnames = set(live_unofficial_teamnames or ())
+    unknown_live_teamnames = live_unofficial_teamnames - unofficial_teamnames
+    if unknown_live_teamnames:
+        raise RuntimeError(
+            "Live unofficial teams are not marked as unofficial: "
+            + ", ".join(sorted(unknown_live_teamnames))
+        )
     teams = []
     for row in rows[1:]:
         cells = row.find_all("td", recursive=False)
@@ -103,6 +111,9 @@ def parse_scoreboard(
             continue
 
         is_unofficial = teamname in unofficial_teamnames
+        apply_elapsed_time_filter = (
+            is_unofficial and teamname not in live_unofficial_teamnames
+        )
         team = {
             "rank": int(rank_text), "name": teamname, "problems": {},
             "solved": 0, "penalty": 0,
@@ -115,7 +126,7 @@ def parse_scoreboard(
             submit_time = parts[1] if len(parts) >= 2 else None
             status, wrong_attempts = parse_mark(mark)
             if (
-                is_unofficial
+                apply_elapsed_time_filter
                 and contest_elapsed_minutes is not None
                 and status == "accepted"
                 and submit_time is not None
@@ -125,7 +136,7 @@ def parse_scoreboard(
                 wrong_attempts = 0
                 submit_time = None
             elif (
-                is_unofficial
+                apply_elapsed_time_filter
                 and contest_elapsed_minutes is not None
                 and status == "attempted"
             ):

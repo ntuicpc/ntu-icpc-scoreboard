@@ -36,7 +36,11 @@ def main():
         f"elapsed={args.contest_elapsed_minutes}m)...",
         flush=True,
     )
-    team_filter, unofficial_teamnames = qoj_live_team_filter(
+    (
+        team_filter,
+        unofficial_teamnames,
+        live_unofficial_teamnames,
+    ) = qoj_live_team_filter(
         TEAMS_PATH, UNOFFICIAL_TEAMS_PATH
     )
     scoreboard = parse_scoreboard(
@@ -47,6 +51,7 @@ def main():
         update_time=TIMESTAMP_PATH.read_text(encoding="utf-8").strip(),
         unofficial_teamnames=unofficial_teamnames,
         contest_elapsed_minutes=args.contest_elapsed_minutes,
+        live_unofficial_teamnames=live_unofficial_teamnames,
     )
     write_json_atomic(SCOREBOARD_PATH, scoreboard)
     print(

@@ -2,16 +2,19 @@
     {
         "teamname": "ideograph_advantage",
         "qoj-name": "ideograph_advantage",
-        "qoj-username": "ideograph_advantage"
+        "qoj-username": "ideograph_advantage",
+        "live": true
     },
     {
         "teamname": "std_abs",
         "qoj-name": "std_abs",
-        "qoj-username": "std_abs"
+        "qoj-username": "std_abs",
+        "live": true
     },
     {
         "teamname": "baluteshih",
         "qoj-name": "baluteshih",
-        "qoj-username": "ucup-team7725"
+        "qoj-username": "ucup-team7725",
+        "live": true
     }
 ]

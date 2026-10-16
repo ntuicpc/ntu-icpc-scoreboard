@@ -47,12 +47,14 @@ The fields have the following meanings:
   to identify accepted submissions when building a Codeforces upsolve scoreboard.
 
 Unofficial QOJ teams can be stored in `teams/unofficial.json` using the same
-format. They are included in the QOJ live scoreboard and marked with a star
-whose tooltip reads **Unofficial**. They are ranked normally together with
-official teams. Their accepted solutions are replayed against the elapsed time
-of the current contest, so an accepted solution is not revealed until the
-current contest reaches the same elapsed minute. QOJ wrong-attempt times cannot
-be reconstructed, so wrong attempts are hidden until the corresponding accepted
+format, with an additional boolean `live` field. They are included in the QOJ
+live scoreboard and marked with a star whose tooltip reads **Unofficial**. They
+are ranked normally together with official teams. A team with `live: true` is
+currently competing, so its standings are shown directly. For a team with
+`live: false`, accepted solutions are replayed against the elapsed time of the
+current contest, so an accepted solution is not revealed until the current
+contest reaches the same elapsed minute. QOJ wrong-attempt times cannot be
+reconstructed, so wrong attempts are hidden until the corresponding accepted
 solution is revealed; wrong attempts on problems without an accepted solution
 are not shown. Unofficial teams are removed when archiving the live scoreboard.
 Ranks and first solves are recalculated using official teams only before the
