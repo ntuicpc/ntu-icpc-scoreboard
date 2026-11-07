@@ -139,6 +139,27 @@ python tools/archive.py live <archive_id> <title>
 - For QOJ, `id_l` and `id_r` are the first and last problem IDs. The tool assumes that all problem IDs in the contest are consecutive.
 - `title` is the title displayed on the archived scoreboard.
 
+### Archive a DOMjudge Scoreboard
+
+DOMjudge scoreboards are archived manually. Create `archive/<archive_id>/scoreboard.json`
+with `"contest-type": "domjudge"` (see existing DOMjudge archives for the format) and
+`archive/<archive_id>/problem.json`.
+
+If the contest is also available on QOJ, you can add an optional `qoj-url` field to
+`scoreboard.json`, for example `"qoj-url": "https://qoj.ac/contest/1234"`, and fill
+`problem.json` with the QOJ problem IDs in the same format as QOJ archives:
+
+```json
+{
+    "A": {"id": 4798, "url": "https://qoj.ac/contest/1234/problem/4798"},
+    "B": {"id": 4799, "url": "https://qoj.ac/contest/1234/problem/4799"}
+}
+```
+
+With `qoj-url` set, `tools/build-upsolve.py` and `tools/update-upsolve.py` treat the
+archive like a QOJ archive, and the upsolve scoreboard links to the QOJ contest. Without
+`qoj-url`, `problem.json` can be `{}` and no upsolve scoreboard can be built.
+
 ### Build Ratings
 
 Creating an archive does not automatically generate its ratings. To create rating,
@@ -149,7 +170,7 @@ python tools/build-rating.py <archive_id>
 
 ### Build an Upsolve Scoreboard
 
-This feature supports QOJ and Codeforces archives.
+This feature supports QOJ and Codeforces archives, and DOMjudge archives with `qoj-url` (built the same way as QOJ archives).
 
 QOJ user profile pages cannot be downloaded easily by a crawler, so each profile must be saved manually in the `teams/` directory. The filename must be `<qoj_username>.html`, for example `std_abs.html`. This includes teams in `teams.json` that did not participate in the archived contest; they appear on the upsolve scoreboard if they solved at least one problem.
 

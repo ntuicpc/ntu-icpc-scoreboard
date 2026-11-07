@@ -17,8 +17,11 @@ from scoreboard_parsers.io import load_json, write_json_atomic
 
 
 def update_upsolve(upsolve, team_name, problem_id):
-    if upsolve.get("contest-type") != "qoj":
-        raise RuntimeError("Upsolve updates are only supported for QOJ archives")
+    # DOMjudge upsolve scoreboards are always built from QOJ problem IDs.
+    if upsolve.get("contest-type") not in {"qoj", "domjudge"}:
+        raise RuntimeError(
+            "Upsolve updates are only supported for QOJ and DOMjudge archives"
+        )
 
     teams = [team for team in upsolve["teams"] if team["name"] == team_name]
     if not teams:
@@ -76,7 +79,7 @@ def update_upsolve(upsolve, team_name, problem_id):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Toggle one problem between unsolved and upsolved, then rerank a QOJ upsolve scoreboard."
+        description="Toggle one problem between unsolved and upsolved, then rerank a QOJ or DOMjudge upsolve scoreboard."
     )
     parser.add_argument("archive_name", type=archive_name, help="folder name under archive")
     parser.add_argument("team_name", help="team name shown on the upsolve scoreboard")

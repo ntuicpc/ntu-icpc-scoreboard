@@ -17,6 +17,7 @@ TEAMS_DIR = PROJECT_DIR / "teams"
 TEAMS_PATH = TEAMS_DIR / "teams.json"
 PROBLEM_URL_PATTERN = re.compile(r"^/problem/(\d+)$")
 CODEFORCES_PROFILE_PATTERN = re.compile(r"^/profile/([^/]+)$")
+QOJ_CONTEST_URL_PATTERN = re.compile(r"^https://qoj\.ac/contest/(\d+)/?$")
 CONTEST_SOLVED_STATUSES = {"accepted", "first-solve"}
 
 sys.path.insert(0, str(PROJECT_DIR))
@@ -158,12 +159,45 @@ def build_codeforces_accepted_by_team(html_path, problem_map):
         accepted_by_team[teamname] = accepted
     return accepted_by_team
 
+
+def get_domjudge_qoj_url(scoreboard):
+    qoj_url = scoreboard.get("qoj-url") or ""
+    if not isinstance(qoj_url, str):
+        raise RuntimeError("qoj-url in scoreboard.json must be a string")
+    qoj_url = qoj_url.strip()
+    if qoj_url and not QOJ_CONTEST_URL_PATTERN.fullmatch(qoj_url):
+        raise RuntimeError(
+            "qoj-url must look like https://qoj.ac/contest/<contest_id>: "
+            f"{qoj_url}"
+        )
+    return qoj_url
+
+
 def build_upsolve(archive_path, codeforces_html_path=None):
     scoreboard = load_json(archive_path / "scoreboard.json")
     problem_map = load_json(archive_path / "problem.json")
     contest_type = scoreboard.get("contest-type")
+    contest_id = scoreboard["contest-id"]
+    contest_url = scoreboard["contest-url"]
 
-    if contest_type == "qoj":
+    if contest_type == "domjudge":
+        qoj_url = get_domjudge_qoj_url(scoreboard)
+        if not qoj_url:
+            raise RuntimeError(
+                "DOMjudge archives require qoj-url in scoreboard.json "
+                "to build an upsolve scoreboard"
+            )
+        contest_id = int(QOJ_CONTEST_URL_PATTERN.fullmatch(qoj_url).group(1))
+        contest_url = qoj_url
+
+    problems = scoreboard["problems"]
+    missing_problems = [problem for problem in problems if problem not in problem_map]
+    if missing_problems:
+        raise RuntimeError(
+            "Missing problem data in problem.json: " + ", ".join(missing_problems)
+        )
+
+    if contest_type in {"qoj", "domjudge"}:
         if codeforces_html_path is not None:
             raise RuntimeError(
                 "A standings HTML file should only be provided for "
@@ -180,15 +214,9 @@ def build_upsolve(archive_path, codeforces_html_path=None):
         )
     else:
         raise RuntimeError(
-            "Upsolve generation is only supported for QOJ and Codeforces archives: "
+            "Upsolve generation is only supported for QOJ, Codeforces, and "
+            "DOMjudge archives with qoj-url: "
             f"{scoreboard.get('contest-url', 'unknown contest')}"
-        )
-
-    problems = scoreboard["problems"]
-    missing_problems = [problem for problem in problems if problem not in problem_map]
-    if missing_problems:
-        raise RuntimeError(
-            "Missing problem data in problem.json: " + ", ".join(missing_problems)
         )
 
     archived_teams = {team["name"]: team for team in scoreboard["teams"]}
@@ -259,8 +287,8 @@ def build_upsolve(archive_path, codeforces_html_path=None):
         "problems": problems,
         "teams": upsolve_teams,
         "update-time": datetime.now().astimezone().strftime("%Y/%m/%d %H:%M:%S"),
-        "contest-id": scoreboard["contest-id"],
-        "contest-url": scoreboard["contest-url"],
+        "contest-id": contest_id,
+        "contest-url": contest_url,
         "contest-type": contest_type,
         "title": f"{scoreboard['title']} - Upsolve",
     }
@@ -268,7 +296,10 @@ def build_upsolve(archive_path, codeforces_html_path=None):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Build an upsolve scoreboard for a QOJ or Codeforces archive."
+        description=(
+            "Build an upsolve scoreboard for a QOJ, Codeforces, or "
+            "DOMjudge (with qoj-url) archive."
+        )
     )
     parser.add_argument(
         "archive_name",
