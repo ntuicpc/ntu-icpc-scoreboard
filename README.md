@@ -160,7 +160,9 @@ If the contest is also available on QOJ, you can add an optional `qoj-url` field
 ```
 
 With `qoj-url` set, `tools/build-upsolve.py` and `tools/update-upsolve.py` treat the
-archive like a QOJ archive, and the upsolve scoreboard links to the QOJ contest. Without
+archive like a QOJ archive, and the upsolve scoreboard links to the QOJ contest. The
+archived scoreboard's **Contest Page** link also points to `qoj-url` when `contest-url`
+is empty. Without
 `qoj-url`, `problem.json` can be `{}` and no upsolve scoreboard can be built.
 
 ### Build Ratings

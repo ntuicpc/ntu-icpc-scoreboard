@@ -82,6 +82,12 @@ def render_scoreboard(
     if include_dirt:
         add_dirt_percent(data["teams"])
 
+    contest_url = data["contest-url"]
+    if not contest_url and data.get("contest-type") == "domjudge":
+        qoj_url = data.get("qoj-url")
+        if isinstance(qoj_url, str):
+            contest_url = qoj_url.strip()
+
     return render_template_string(
         html,
         problems=data["problems"],
@@ -89,7 +95,7 @@ def render_scoreboard(
         last_update=data["update-time"],
         contest_id=data["contest-id"],
         title=data["title"],
-        contest_url=data["contest-url"],
+        contest_url=contest_url,
         problem_map=problem_map,
         show_unofficial=show_unofficial,
     )
