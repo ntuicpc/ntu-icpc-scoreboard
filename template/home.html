@@ -62,6 +62,13 @@
             align-items: flex-start;
         }
 
+        .homework-note {
+            margin-top: 4px;
+            color: #777;
+            font-size: 13px;
+            white-space: pre-line;
+        }
+
         .homework-card .links {
             flex-wrap: wrap;
             justify-content: flex-end;
@@ -145,6 +152,9 @@
             <div class="card homework-card">
                 <div>
                     <div class="title">{{ homework.title }}</div>
+                    {% if homework.note %}
+                    <div class="homework-note">{{ homework.note }}</div>
+                    {% endif %}
                     <div class="deadline">Deadline: {{ homework.deadline }}</div>
                     <div class="deadline">Time Remaining: {{ homework.remaining }}</div>
                 </div>

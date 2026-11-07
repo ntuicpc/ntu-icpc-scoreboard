@@ -172,10 +172,15 @@ def load_ongoing_homeworks():
 
         deadline = homework.get("deadline", "-")
 
+        note = homework.get("note", "")
+        if not isinstance(note, str):
+            note = ""
+
         homeworks.append(
             {
                 "id": homework_path.stem,
                 "title": homework.get("title", homework_path.stem),
+                "note": note.strip(),
                 "deadline": deadline,
                 "remaining": format_remaining_time(deadline),
                 "scoreboards": [

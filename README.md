@@ -69,6 +69,7 @@ Homework information is stored as JSON files in the `homework/` directory. Each 
 ```json
 {
     "title": "Homework 1",
+    "note": "Solve at least 5 problems in each contest.",
     "deadline": "2026/09/30 23:59:59",
     "ended": false,
     "scoreboards": [
@@ -87,6 +88,8 @@ Homework information is stored as JSON files in the `homework/` directory. Each 
 The fields have the following meanings:
 
 - `title`: the homework title displayed on the home page.
+- `note` (optional): a short note displayed in small text below the homework title.
+  Omit it or leave it empty to show no note. Line breaks (`\n`) are preserved.
 - `deadline`: the deadline in `YYYY/MM/DD HH:MM:SS` format. Deadlines use the Asia/Taipei timezone (UTC+8).
 - `ended`: set this to `false` to display the homework, or `true` to hide it.
 - `scoreboards`: a list of scoreboards included in the homework. Each entry must
